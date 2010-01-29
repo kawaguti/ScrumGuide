@@ -86,7 +86,7 @@
 //If the inspector determines from the inspection that one or more aspects of the process are outside acceptable limits, and that the resulting product will be unacceptable, the inspector must adjust the process or the material being processed. The adjustment must be made as quickly as possible to minimize further deviation. 
 
 !!3つ目の脚は適応
-検査結果を見て、プロセスに不備があり、成果となるプロダクトを受け入れられないと判断した場合、検査人はプロセスまたは成果物を調整しなければならない。
+検査結果を見て、プロセスに不備があり、成果となるプロダクトを受け入れられないと判断した場合、検査する人はプロセスまたは成果物を調整しなければならない。
 調整はできるだけ早く行い、これ以上の逸脱は防がなければならない。
 
 //There are three points for inspection and adaptation in Scrum. The Daily Scrum meeting is used to inspect progress toward the Sprint goal, and to make adaptations that optimize the value of the next work day. In addition, the Sprint Review and Planning meetings are used to inspect progress toward the Release Goal and to make adaptations that optimize the value of the next Sprint. Finally, the Sprint Retrospective is used to review the past Sprint and determine what adaptations will make the next Sprint more productive, fulfilling, and enjoyable. 
@@ -738,3 +738,12 @@
 !翻訳
 
 角征典 <kdmsnr@gmail.com>
+
+!!レビューア
+
+* @takaesu0
+
+!!更新履歴
+
+* 2010-01-30    Reviewed
+* 2010-01-29    Init
