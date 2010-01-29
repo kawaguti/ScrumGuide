@@ -17,9 +17,9 @@
 //Scrum is based on industry-accepted best practices, used and proven for decades. It is then set in an empirical process theory. As Jim Coplien once remarked to Jeff, “Everyone will like Scrum; it is what we already do when our back is against the wall.” 
 
 !! 全般
-スクラムは、産業界で受け入れられたベストプラクティスに基づいている。
-それらは、数十年かけて使用され、実証されてきたものだ。
-後に経験プロセス理論の一部となっている。
+スクラムは産業界で受け入れられたベストプラクティスに基づいている。
+それらは数十年かけて使用され、実証されてきたものだ。
+後に、経験プロセス理論の一部となっている。
 ある時、Jim CoplienがJeff Sutherlandに言った。
 「
 みんなスクラムが好きになるよ。
@@ -30,14 +30,15 @@
 //Of the thousands of people that have contributed to Scrum, we should single out those that were instrumental in its first ten years. First there were Jeff Sutherland, working with Jeff Mckenna, and Ken Schwaber with Mike Smith and Chris Martin. Scrum was first formally presented and published at OOPSLA 1995. During the next five years, Mike Beadle and Martine Devos made significant contributions. And then everyone else, without whose help Scrum wouldn’t have been refined into what it is today. 
 
 !!人々
-スクラムに貢献してくれた非常に多くの人たちのなかから、
-最初の10年間に貢献してくれた人を選んでいこう。
-まず、Jeff SutherlandとJeff Mckenna。
-それから、Ken SchwaberとMike SmithとChris Martinだ。
+スクラムに貢献してくれた非常に多くの人たちのなかでも、
+最初の10年間に貢献してくれた人をまず挙げよう。
+まず、Jeff Sutherland と Jeff Mckenna。
+それから、Ken Schwaber と Mike Smith と Chris Martin。
 スクラムは、公式には OOPSLA 1995 で発表された。
-次の5年間では、Mike BeadleとMartine Devosが大きな貢献をしてくれた。
-そして、その他のみなさん。
-みなさんの助けがなければ、今のように洗練されたスクラムはなかっただろう。
+次の5年間では、Mike Beadle と Martine Devos が大きく貢献してくれた。
+それから、みなさん。
+みなさんの助けがなければ、
+今のように洗練されたスクラムは存在しなかった。
 
 //!!History 
 //The history of Scrum can already be considered long in the world of software development. To honor the first places where it was tried and refined, we honor Individual, Inc., Fidelity Investments, and IDX (now GE Medical).
@@ -79,7 +80,7 @@
 ただし、検査によってプロセス自体が変更されてしまうことを考慮に入れておくこと。
 必要となる検査の頻度がプロセスの許容を超えてしまってはいけない。
 幸いなことに、これはソフトウェア開発には当てはまらないようだ。
-他にもプロセスに影響を与える要因としては、作業の成果を検査する人の技術や勤勉さなどがある。
+プロセスに影響を与える要因としては、他にも、作業の成果を検査する人の技術や勤勉さなどがある。
 
 //THE THIRD LEG IS ADAPTATION 
 //If the inspector determines from the inspection that one or more aspects of the process are outside acceptable limits, and that the resulting product will be unacceptable, the inspector must adjust the process or the material being processed. The adjustment must be made as quickly as possible to minimize further deviation. 
