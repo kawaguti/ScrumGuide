@@ -2,7 +2,7 @@
 // :ship:出荷する
 // :deliver:納品する
 // :implement: 実装とは別の何か。[導入]
-// :work: 仕事
+// :work: 作業
 // [注意]
 // 「〜ための」は避ける。「することの」を避ける。
 // 最優先事項 -> 最優先項目
@@ -147,7 +147,7 @@
 スクラムは4つの主要な成果物を採用している。
 '''プロダクトバックログ'''は、プロダクトで必要となる可能性のあるものすべてに優先度をつけた一覧である。
 '''スプリントバックログ'''は、スプリントにおいて、プロダクトバックログを出荷判断可能なプロダクトのインクリメントに変えるために必要となるタスクに優先度をつけた一覧である。
-バーンダウンは、時間をかけて残ったバックログの項目を計測するためのものである。
+バーンダウンは、残ったバックログの項目を時間をかけて計測するためのものである。
 '''リリースバーンダウン'''は、リリース計画中に残ったプロダクトバックログの項目を計測するためのものだ。
 '''スプリントバーンダウン'''は、スプリント中に残ったスプリントバックログの項目を計測するものだ。
 
@@ -156,7 +156,7 @@
 '''ルール'''は、
 スクラムのタイムボックス、役割、および成果物を結びつけるものである。
 ルールについては、本稿の至るところで説明する。
-例えば、「チームメンバー（プロダクトバックログをインクリメントに変えることコミットした人たち）だけが、デイリースクラムで話すことができる」などがスクラムのルールである。
+例えば、「チームメンバー（プロダクトバックログをインクリメントに変えることにコミットした人たち）だけが、デイリースクラムで話すことができる」などがスクラムのルールである。
 スクラムを導入するためのルールではなく、こちらからの提案については、「Tip」枠内で述べることにする。
 
 //Tip: When rules are not stated, the users of Scrum are expected to figure out what to do. Don’t try to figure out a perfect solution, because the problem usually changes quickly. Instead, try something and see how it works. The inspect-and-adapt mechanisms of Scrum’s empirical nature will guide you. 
@@ -339,7 +339,7 @@
 スプリントはタイムボックスになっている。
 スクラムマスターは、スプリント中にスプリントゴールに影響する変更が行われないことを保証する。
 チーム構成と品質目標は、どちらもスプリント中は一定である。
-スプリントは、スプリント計画ミーティング、開発作業、スプリントレビュー、およびスプリントレトロスペクティブで含んでおり、それらで構成されている。
+スプリントは、スプリント計画ミーティング、開発作業、スプリントレビュー、およびスプリントレトロスペクティブを含んでおり、それらで構成されている。
 スプリントは間隔を置かずに次々と開始する。
 
 //A project is used to accomplish something; in software development, it is used to build a product or system. Every project consists of a definition of what is to be built, a plan to build it, the work done according to the plan, and the resultant product. Every project has a horizon, which is to say the time frame for which the plan is good. If the horizon is too long, the definition may have changed, too many variables may have entered in, the risk may be too great, etc. Scrum is a framework for a project whose horizon is no more than one month long, where there is enough complexity that a longer horizon is too risky. The predictability of the project has to be controlled at least each month, and the risk that the project may go out of control or become unpredictable is contained at least each month. 
@@ -377,7 +377,7 @@
 //When a Sprint is cancelled, any completed and “done” Product Backlog items are reviewed. They are accepted if they represent a potentially shippable increment. All other Product Backlog items are put back on the Product Backlog with their initial estimates. Any work done on them is assumed to be lost. Sprint terminations consume resources, since everyone has to regroup in another Sprint planning meeting to start another Sprint. Sprint terminations are often traumatic to the Team, and they are very uncommon.
 
 スプリントが中止になったら、プロダクトバックログの完成あるいは「完了（done）」した項目をレビューする。
-出荷判断可能なインクリメントになっていれば、受け入れられる。
+出荷判断可能なインクリメントになっていれば、受け入れられるだろう。
 その他の項目は、最初の見積もり数値のままプロダクトバックログに戻される。
 それらにかかった作業は失われたものとなる。
 スプリントの中止は、別のスプリントを開始するためにスプリント計画ミーティングを開かなければならないため、リソースを消費する。
@@ -469,7 +469,7 @@
 プロダクトオーナーは、何が完了したか、何が完了しなかったかを識別する。
 チームは、スプリント中にうまくいったこと、遭遇した問題点、およびどうやって問題を解決したかを議論する。
 その後チームは、完了した作業のデモンストレーションを行い、質問に答える。
-プロダクトオーナーは、現状のプロダクトバックログについて話しあう。
+プロダクトオーナーは、現状のプロダクトバックログについて話し合う。
 そして、様々なベロシティを仮定して、有望な完成日を予測する。
 その後みんなで、これまで見たこと、そしてそれが次に行うべきことにどんな意味があるかを議論する。
 スプリントレビューは、後のスプリント計画ミーティングにとって価値のあるインプットとなる。
@@ -505,8 +505,8 @@
 //What obstacles are in his or her way. 
 
 
-* 前のミーティングから今日までに行ったこと
-* 次のミーティングまでに行うこと
+* 前回のミーティングから今日までに行ったこと
+* 次回のミーティングまでに行うこと
 * 何かを行う上で障害となること
 
 //Daily Scrums improve communications, eliminate other meetings, identify and remove impediments to development, highlight and promote quick decision-making, and improve everyone’s level of project knowledge. 
@@ -556,7 +556,7 @@
 //The Product Backlog represents everything necessary to develop and launch a successful product. It is a list of all features, functions, technologies, enhancements, and bug fixes that constitute the changes that will be made to the product for future releases. Product Backlog items have the attributes of a description, priority, and estimate. Priority is driven by risk, value, and necessity. There are many techniques for assessing these attributes.
 
 
-プロダクトバックログには、成功するプロダクトを開発し、ローンチするために必要なものをすべてを表されている。
+プロダクトバックログには、成功するプロダクトを開発し、ローンチするために必要なものすべてが表されている。
 すべてのフィーチャ、機能、技術、要望、およびバグフィックスなど、将来のリリースでプロダクトに加えられる変更の一覧となっている。
 プロダクトバックログの項目には、詳細、優先度、見積もりの属性がある。
 優先度は、リスク、価値、および必要性を考慮して決定する。
@@ -651,7 +651,7 @@
 //Sprint Backlog Burndown is a graph of the amount of Sprint Backlog work remaining in a Sprint across time in the Sprint. To create this graph, determine how much work remains by summing the backlog estimates every day of the Sprint. The amount of work remaining for a Sprint is the sum of the work remaining for all of Sprint Backlog. Keep track of these sums by day and use them to create a graph that shows the work remaining over time. By drawing a line through the points on the graph, the Team can manage its progress in completing a Sprint’s work.  Duration is not considered in Scrum. Work remaining and date are the only variables of interest. 
 
 
-プリントバックログバーンダウンは、スプリントバックログの残作業の量を時間軸で表したグラフである。
+スプリントバックログバーンダウンは、スプリントバックログの残作業の量を時間軸で表したグラフである。
 このグラフを作成するには、
 バックログの見積もりを毎日合計して、
 残作業を算出しなければならない。
