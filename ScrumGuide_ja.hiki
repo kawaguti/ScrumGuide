@@ -27,12 +27,12 @@
 」
 
 //!!People  
-//Of the thousands of people that have contributed to Scrum, we should single out those that were instrumental in its first ten years. First there were Jeff Sutherland, working with Jeff Mckenna, and Ken Schwaber with Mike Smith and Chris Martin. Scrum was first formally presented and published at OOPSLA 1995. During the next five years, Mike Beadle and Martine Devos made significant contributions. And then everyone else, without whose help Scrum wouldn’t have been refined into what it is today. 
+//Of the thousands of people that have contributed to Scrum, we should single out those that were instrumental in its first ten years. First there were Jeff Sutherland, working with Jeff McKenna, and Ken Schwaber with Mike Smith and Chris Martin. Scrum was first formally presented and published at OOPSLA 1995. During the next five years, Mike Beadle and Martine Devos made significant contributions. And then everyone else, without whose help Scrum wouldn’t have been refined into what it is today. 
 
 !!人々
 スクラムに貢献してくれた非常に多くの人たちのなかでも、
 最初の10年間に貢献してくれた人をまず挙げよう。
-まず、Jeff Sutherland と Jeff Mckenna。
+まず、Jeff Sutherland と Jeff McKenna。
 それから、Ken Schwaber と Mike Smith と Chris Martin。
 スクラムは、公式には OOPSLA 1995 で発表された。
 次の5年間では、Mike Beadle と Martine Devos が大きく貢献してくれた。
@@ -48,6 +48,14 @@
 
 //PURPOSE
 //Scrum has been used to develop complex products since the early 1990s. This paper describes how to use Scrum to build products. Scrum is not a process or a technique for building products; rather, it is a framework within which you can employ various processes and techniques. The role of Scrum is to surface the relative efficacy of your development practices so that you can improve upon them while providing a framework within which complex products can be developed. 
+
+//Translation
+//This guide has been translated from the original English version, provided by Ken Schwaber and Jeff Sutherland.  Contributors to the translation include [First name][Last name].
+
+!!翻訳
+本ガイドは、Ken Schwaber と Jeff Sutherland による英語版の翻訳である。
+日本語訳は 角 征典 <kdmsnr@gmail.com> が担当している。
+翻訳のレビューには、@takaesu0、@sunaot、@kawaguti が参加してくれた。
 
 !目的
 スクラムは1990年代初頭から複雑なプロダクトの開発に使用されてきた。
@@ -163,13 +171,18 @@
 ""Tip: ルールが規定していない部分は、スクラムのユーザーは自ら何を行うべきかを考えなければならない。問題というものは頻繁に変更されるものなので、最初から完全な解を見つけようとはしないこと。その代わり、何かを試してみて、その効果を確かめること。検査と適応という仕組みは、経験的に何かを獲得していくというスクラムの特性であり、あなたを導いてくれることだろう。
 
 //SCRUM ROLES 
-//The Scrum Team consists of the ScrumMaster, the Product Owner, and the Team. Scrum Team members are called “pigs.” Everyone else is a “chicken.” Chickens cannot tell “pigs” how to do their work. Chickens and pigs come from the story, 
+//The Scrum Team consists of the ScrumMaster, the Product Owner, and the Team. Scrum Team members are called “pigs.” 
+//The Product Owner is the “pig” of the Product Backlog.  The Team is the “pig” of the Sprint work. The ScrumMaster is the “pig” of the Scrum process. 
+//Everyone else is a “chicken.” Chickens cannot tell “pigs” how to do their work. Chickens and pigs come from the story, 
 !スクラムに登場する役割
 スクラムチームは、
 '''スクラムマスター'''、
 '''プロダクトオーナー'''、
 および'''チーム'''で構成される。
 スクラムチームのメンバーは「豚」と呼ばれる。
+プロダクトオーナーはプロダクトバックログの「豚」である。
+チームはスプリント作業の「豚」である。
+スクラムマスターはスクラムプロセスの「豚」である。
 その他の人はすべて「鶏」である。
 鶏は「豚」に作業のやり方を命令することはできない。
 鶏と豚とは、次のような物語に由来する。
@@ -189,17 +202,14 @@
 ""Tip: スクラムマスターは、顧客やマネージャーと一緒にプロダクトオーナーを具体的に特定する。そして、プロダクトオーナーにその役割を伝える。プロダクトオーナーは、スクラムを使って価値を最適化する方法を知っておかなければならない。知らない場合は、スクラムマスターがプロダクトオーナーに説明する。
 
 //THE SCRUMMASTER 
-//The ScrumMaster is responsible for ensuring that the Scrum Team adheres to Scrum values, practices, and rules. The ScrumMaster helps the Scrum Team and the organization adopt Scrum. The ScrumMaster teaches the Scrum Team by coaching and by leading it to be more productive and produce higher quality products. The ScrumMaster helps the Scrum Team understand and use self-management and cross-functionality. However, the ScrumMaster does not manage the Scrum Team; the Scrum Team is self-organizing. 
-
+//The ScrumMaster is responsible for ensuring that the Scrum Team adheres to Scrum values, practices, and rules. The ScrumMaster helps the Scrum Team and the organization adopt Scrum. The ScrumMaster teaches the Scrum Team by coaching and by leading it to be more productive and produce higher quality products. The ScrumMaster helps the Scrum Team understand and use self-organization and cross-functionality. The ScrumMaster’s role is one of a servant-leader for the Scrum Team. 
 
 !!スクラムマスター
 スクラムマスターは、スクラムチームがスクラムの価値、慣習、およびルールに忠実であることを保証する責任がある。
 スクラムマスターは、スクラムチームと組織がスクラムを採用することを支援する。
 スクラムマスターは、コーチングやリーディングを使って、スクラムチームがより生産的に、より質の高いプロダクトを作れるよう指導する。
-スクラムマスターは、スクラムチームが自己管理とクロスファンクションを理解し、実践することを支援する。
-ただし、スクラムマスターがスクラムチームを管理することはない。
-スクラムチームは自己組織なのである。
-
+スクラムマスターは、スクラムチームが自己組織とクロスファンクションを理解し、実践することを支援する。
+スクラムマスターの役割は、スクラムチームにとってのサーバントリーダー（訳注：メンバーが成果をあげるための支援や奉仕をするリーダーのこと）的な存在であると言える。
 
 //Tip: The ScrumMaster may be a member of the Team; for example, a developer performing Sprint tasks. However, this often leads to conflicts when the ScrumMaster has to choose between removing impediments and performing tasks. The ScrumMaster should never be the Product Owner.
 
@@ -258,7 +268,7 @@
 個々のチームメンバーはその専門知識をすべての問題に適用する。
 その結果生じるシナジーによって、チーム全体の効率と効果が向上する。
 
-//The optimal size for a Team is seven people, plus or minus two. When there are fewer than five Team members, there is less interaction and as a result less productivity gain.  What’s more, the Team may encounter skill constraints during parts of the Sprint and be unable to deliver a releasable piece of the product. If there are more than nine members, there is simply too much coordination required. Large Teams generate too much complexity for an empirical processs to manage. However, we have encountered some successful Teams that have exceeded the upper and lower bounds of this size range. The Product Owner and ScrumMaster roles are not included in this count unless they are also pigs. 
+//The optimal size for a Team is seven people, plus or minus two. When there are fewer than five Team members, there is less interaction and as a result less productivity gain.  What’s more, the Team may encounter skill constraints during parts of the Sprint and be unable to deliver a releasable piece of the product. If there are more than nine members, there is simply too much coordination required. Large Teams generate too much complexity for an empirical processs to manage. However, we have encountered some successful Teams that have exceeded the upper and lower bounds of this size range. The Product Owner and ScrumMaster roles are not included in this count unless they are also pigs, working on tasks in the Sprint Backlog.
 
 
 チームに最適な規模は、7±2名である。
@@ -267,7 +277,7 @@
 チームメンバーが9名を超える場合、単純に調整する量が多くなってしまう。
 大きなチームは、経験的プロセスを管理するにはあまりにも複雑である。
 とはいえ、この範囲に入らない規模のチームが成功した例に我々は何度か遭遇したことがある。
-プロダクトオーナーとスクラムマスターは、彼らが豚でないのであれば、人数に含まない。
+プロダクトオーナーとスクラムマスターは、スプリントバックログの作業に関わる豚でないのであれば、人数には含まない。
 
 //Team composition may change at the end of a Sprint. Every time Team membership is changed, the productivity gained from self-organization is diminished. Care should be taken when changing Team composition. 
 
@@ -384,16 +394,16 @@
 しかし、中止はめったに起きないことである。
 
 //SPRINT PLANNING MEETING 
-//The Sprint Planning meeting is when the iteration is planned. It is time-boxed to eight hours for a one month Sprint. For shorter Sprints, allocate approximately 5% of the total Sprint length to this meeting and consists of two parts. The first part, a four hour time-box, is when what will be done in the Sprint is decided upon. The second part, another four-hour time box, is when the Team figures out how it is going to build this functionality into a product increment during the Sprint. 
+//The Sprint Planning meeting is when the iteration is planned. It is time-boxed to eight hours for a one month Sprint. For shorter Sprints, allocate proportionately less of the total Sprint length to this meeting (for example, two weeks would be a four-hour Sprint Planning Meeting). The Sprint Planning Meeting consists of two parts. The first part is when what will be done in the Sprint is decided upon. The second part (a four-hour time-box for a monthly Sprint)  is when the Team figures out how it is going to build this functionality into a product increment during the Sprint. 
 
 
 !!スプリント計画ミーティング
 スプリント計画ミーティングでは、イテレーションを計画する。
 1ヶ月のスプリントの場合、ミーティングは8時間のタイムボックスとなる。
-もっと短いスプリントの場合は、スプリントの長さのおよそ5%を割り当てる。
-ミーティングは2部構成である。
-最初の部分（4時間のタイムボックス）では、スプリントで行うことを決める。
-第2の部分（また別の4時間のタイムボックス）では、決まった機能をプロダクトインクリメントにどのように組み込むかをチームで考える。
+もっと短いスプリントの場合は、スプリントの長さに比例して時間を割り当てる（例えば、スプリントが2週間の場合は、スプリント計画ミーティングを4時間にする）。
+スプリント計画ミーティングは2部構成である。
+第1部では、スプリントで何を行うかを決める。
+第2部（1月のスプリントだと4時間のタイムボックス）では、決まった機能をプロダクトインクリメントにどのように組み込むかをチームで考える。
 
 //There are two parts to the Sprint Planning Meeting: the “What?” part and the “How?” part. Some Scrum Teams combine the two. In the first part, the Scrum Team addresses the question of “What?” Here, the Product Owner presents the top priority Product Backlog to the Team. They work together to figure out what functionality is to be developed during the next Sprint. The input to this meeting is the Product Backlog, the latest increment of product, the capacity of the Team, and past performance of the Team. The amount of backlog the Team selects is solely up to the Team. Only the Team can assess what it can accomplish over the upcoming Sprint.
 
@@ -426,10 +436,10 @@
 予測したよりも作業が困難であると判明した場合、
 チームはプロダクトオーナーと相談して、一部の機能を実装する。
 
-//In the second part of the Sprint Planning Meeting, the Team addresses the question of “How?” During the second four hours of the Sprint Planning Meeting, the Team figures out how it will turn the Product Backlog selected during Sprint Planning Meeting (What) into a done increment. The Team usually starts by designing the work. While designing, the Team identifies tasks. These tasks are the detailed pieces of work needed to convert the Product Backlog into working software. Tasks should have decomposed so they can be done in less than one day. This task list is called the Sprint Backlog. The Team self-organizes to assign and undertake the work in the Sprint Backlog, either during the Sprint Planning meeting or just-in-time during the Sprint. 
+//In the second part of the Sprint Planning Meeting, the Team addresses the question of “How?” During the second part of the Sprint Planning Meeting (four hour time-box for a monthly Sprint), the Team figures out how it will turn the Product Backlog selected during Sprint Planning Meeting (What) into a done increment. The Team usually starts by designing the work. While designing, the Team identifies tasks. These tasks are the detailed pieces of work needed to convert the Product Backlog into working software. Tasks should have decomposed so they can be done in less than one day. This task list is called the Sprint Backlog. The Team self-organizes to undertake the work in the Sprint Backlog, either during the Sprint Planning meeting or just-in-time during the Sprint. 
 
 スプリント計画ミーティングの第2部では、チームは「How?」の質問に取り組む。
-この新たな4時間でチームは、スプリント計画ミーティング（What）で選択したプロダクトバックログをどのように完了インクリメントに変えるかを考える。
+スプリント計画ミーティングの第2部（1ヶ月のスプリントだと4時間）でチームは、スプリント計画ミーティング（What）で選択したプロダクトバックログをどのように完了インクリメントに変えるかを考える。
 通常、チームは、作業の設計から始める。そして、タスクを見つけ出す。
 これらのタスクは、プロダクトバックログを動くソフトウェアに変えために必要となる詳細な作業である。
 タスクは、1日未満で行うことができるように分解すべきだ。
@@ -450,12 +460,12 @@
 これに気づけば、チームは自己組織を始め、真のチームとしての特性を持ち、そのように振る舞えるようになる。
 
 //SPRINT REVIEW 
-//At the end of the Sprint, a Sprint Review meeting is held. This is a four hour time-boxed meeting for one month Sprints. For Sprints of lesser duration, this meeting must not consume more than 5% of the total Sprint. During the Sprint Review, the Scrum Team and stakeholders collaborate about what was just done. Based on that and changes to the Product Backlog during the Sprint, they collaborate about what are the next things that could be done. This is an informal meeting, with the presentation of the functionality intended to foster collaboration about what to do next. 
+//At the end of the Sprint, a Sprint Review meeting is held. This is a four hour time-boxed meeting for one month Sprints. For Sprints of lesser duration, allocate proportionately less of the total Sprint length to this meeting (for example, two weeks would be a four-hour Sprint Review). During the Sprint Review, the Scrum Team and stakeholders collaborate about what was just done. Based on that and changes to the Product Backlog during the Sprint, they collaborate about what are the next things that could be done. This is an informal meeting, with the presentation of the functionality intended to foster collaboration about what to do next. 
 
 !!スプリントレビュー
 スプリントの最後にスプリントレビューを開く。
 1ヶ月のスプリントの場合、タイムボックスは4時間となる。
-もっと短いスプリントの場合、スプリントの5%以上を費やしてはならない。
+もっと短いスプリントの場合は、スプリントの長さに比例して時間を割り当てる（例えば、スプリントが2週間の場合は、スプリントレビューを2時間にする）。
 スプリントレビューでは、スクラムチームとステークホルダーが、完了した項目について協議する。
 この結果とスプリント中のプロダクトバックログへの変更に基づいて、次に完了すべきことを協議する。
 これは非公式のミーティングであり、
@@ -474,13 +484,14 @@
 スプリントレビューは、後のスプリント計画ミーティングにとって価値のあるインプットとなる。
 
 //SPRINT RETROSPECTIVE 
-//After the Sprint Review and prior to the next Sprint Planning meeting, the Scrum Team has a Sprint Retrospective meeting. At this three hour, time-boxed meeting the ScrumMaster encourages the Scrum Team to revise, within the Scrum process framework and practices, their development process to make it more effective and enjoyable for the next Sprint. Many books document techniques that are helpful to use in Retrospectives. 
+//After the Sprint Review and prior to the next Sprint Planning meeting, the Scrum Team has a Sprint Retrospective meeting. This is a three hour, time-boxed meeting for monthly Sprints (allocate proportionately less of the total Sprint length to this meeting).  At this meeting,the ScrumMaster encourages the Scrum Team to revise, within the Scrum process framework and practices, its development process to make it more effective and enjoyable for the next Sprint. Many books document techniques that are helpful to use in Retrospectives. 
 
 
 !!スプリントレトロスペクティブ
 スプリントレビューと次のスプリント計画ミーティングの間に、
 スクラムチームはスプリントレトロスペクティブを開く。
-スクラムマスターは、この3時間のタイムボックスのミーティングで、次のスプリントがより有効で、より愉快にするために、スクラムプロセスフレームワークとプラクティスでチームが開発プロセスを改善するように促す。
+1ヶ月のスプリントの場合、タイムボックスは3時間となる（スプリントの長さに比例して時間を割り当てる）。
+このミーティングでスクラムマスターは、次のスプリントをより有効で、より愉快にするために、スクラムプロセスフレームワークとプラクティスでチームが開発プロセスを改善するように促す。
 レトロスペクティブで使用するのに有用な技術が、多くの書籍で述べられている。
 
 //The purpose of the Retrospective is to inspect how the last Sprint went in regards to people, relationships, process and tools. The inspection should identify and prioritize the major items that went well and those items that-if done differently-could make things even better. These include Scrum Team composition, meeting arrangements, tools, definition of “done,” methods of communication, and processes for turning Product Backlog items into something “done.” By the end of the Sprint Retrospective, the Scrum Team should have identified actionable improvement measures that it implements in the next Sprint. These changes become the adaptation to the empirical inspection.
@@ -624,7 +635,7 @@
 ""Tip: 初めて一緒になるチームだったり、プロダクトをよく知らなかったり、基盤技術をあまり理解していなかったりすると、リリース初期の2〜3スプリントのトレンド線については、信頼度が低いかもしれない。
 
 //SPRINT BACKLOG AND SPRINT BURNDOWN 
-//The Sprint Backlog consists of the tasks the Team performs to turn Product Backlog items into a “done” increment. Many are developed during the Sprint Planning Meeting. It is all of the work that the Team identifies as necessary to meet the Sprint goal. Sprint Backlog items must be decomposed. The decomposition is enough so changes in progress can be understood in the Daily Scrum. 
+//The Sprint Backlog consists of the tasks the Team performs to turn Product Backlog items into a “done” increment. Many are developed during the Sprint Planning Meeting. It is all of the work that the Team identifies as necessary to meet the Sprint goal. Sprint Backlog items must be decomposed. The decomposition is enough so changes in progress can be understood in the Daily Scrum. One day or less is a usual size for a Sprint Backlog item that is being worked on.
 
 !!スプリントバックログとスプリントバーンダウン
 スプリントバックログは、プロダクトバックログの項目を「完了」インクリメントに変えるためにチームが行うタスクで構成される。
@@ -632,13 +643,14 @@
 これは、スプリントゴールを達成するのにチームが必要と考えた作業のすべてである。
 スプリントバックログの項目は分解されていなくてはならない。
 変化の具合がデイリースクラムで理解できれば、十分に分解できているといえる。
+項目にかかる作業時間は、通常は、1日程度である。
 
-//The Team modifies Sprint Backlog throughout the Sprint, as well as Sprint Backlog emerging during the Sprint. As it gets into individual tasks, it may find out that more or fewer tasks are needed, or that a given task will take more or less time than had been expected. As new work is required, the Team adds it to the Sprint Backlog. As tasks are worked on or completed, the hours of estimated remaining work for each task is updated. When tasks are deemed unnecessary, they are removed. Only the Team can change its Sprint Backlog during a Sprint. Only the Team can change the contents or the estimates. The Sprint Backlog is a highly visible, real-time picture of the work that the Team plans to accomplish during the Sprint, and it belongs solely to the Team. 
+//The Team modifies Sprint Backlog throughout the Sprint, as well as Sprint Backlog emerging during the Sprint. As it gets into individual tasks, it may find out that more or fewer tasks are needed, or that a given task will take more or less time than had been expected. As new work is required, the Team adds it to the Sprint Backlog. As tasks are worked on or completed, the estimated remaining work for each task is updated. When tasks are deemed unnecessary, they are removed. Only the Team can change its Sprint Backlog during a Sprint. Only the Team can change the contents or the estimates. The Sprint Backlog is a highly visible, real-time picture of the work that the Team plans to accomplish during the Sprint, and it belongs solely to the Team. 
 
 チームは、スプリント中に追加されるスプリントバックログだけでなく、スプリントバックログ全体に対して常に修正を加えていく。
 個別のタスクに落とし込むなかで、必要なタスクや時間の多寡に気づくかもしれない。
 新しい作業が必要になったら、チームはスプリントバックログに作業を加える。
-タスクに着手したりタスクを完了したりすれば、見積もり残作業の時間を更新する。
+タスクの着手時や完了時には、タスクの見積り残作業を更新する。
 タスクが不必要であれば削除する。
 スプリント中にスプリントバックログを変更することができるのはチームだけである。
 内容や見積もりを変更することができるのもチームだけである。
@@ -734,19 +746,9 @@
 //* "Writing Effective Use Cases," Alistair Cockburn, Addison-Wesley, 2000.
 //** 翻訳『ユースケース実践ガイド―効果的なユースケースの書き方』、ウルシステムズ株式会社（監修）、山岸耕二（訳）、矢崎博英（訳）、水谷雅宏（訳）、篠原明子（訳）、翔泳社、2001年
 
-!翻訳
-
-角征典 <kdmsnr@gmail.com>
-
-!!レビューア
-
-* @takaesu0
-* @sunaot
-* @kawaguti
-
-!!更新履歴
-
-* 2010-02-10    Reviewed by @kawaguti
-* 2010-02-09    Reviewed by @sunaot
-* 2010-01-30    Reviewed by @takaesu0
-* 2010-01-29    Init
+//!!更新履歴
+//
+//* 2010-02-10    Reviewed by @kawaguti
+//* 2010-02-09    Reviewed by @sunaot
+//* 2010-01-30    Reviewed by @takaesu0
+//* 2010-01-29    Init
