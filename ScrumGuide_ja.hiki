@@ -7,6 +7,9 @@
 // 「〜ための」は避ける。「することの」を避ける。
 // 最優先事項 -> 最優先項目
 
+[[cover.png]]
+----
+
 //! Acknowledgements 
 
 !謝辞
@@ -50,7 +53,7 @@
 //Translation
 //This guide has been translated from the original English version, provided by Ken Schwaber and Jeff Sutherland.  Contributors to the translation include [First name][Last name].
 
-!!翻訳
+!翻訳
 本ガイドは、Ken Schwaber と Jeff Sutherland による英語版の翻訳である。
 日本語訳は 角 征典 <kdmsnr@gmail.com> が担当している。
 翻訳のレビューには、@takaesu0、@sunaot、@kawaguti が参加してくれた。

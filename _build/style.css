@@ -194,4 +194,9 @@ font-weight: bold;
         width: 640px;
         font-size:10pt;
     }
+    hr {
+        height: 0px;
+        border: none;
+        page-break-after: always;
+    }
 }
