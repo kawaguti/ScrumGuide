@@ -784,7 +784,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 //	then they collaborate with the Product Owner 
 //		to negotiate the scope of Sprint Backlog within the Sprint. 
 
-開発チームが作業をするときは、このスプリントゴールを心にとどめておく。
+開発チームが作業をするときは、このスプリントゴールを心に留めておく。
 スプリントゴールを達成するには、
 機能と技術を満たさなければならない。
 開発チームの予想が外れた場合は、
@@ -1440,7 +1440,7 @@ KenとJeffがスクラムを数年間適用した経験から学んだことを�
 
 本ガイドは、Ken SchwaberとJeff Sutherlandによる英語版の翻訳である。
 日本語訳は、角征典（a.k.a. kdmsnr） <kdmsnr@gmail.com> が担当した。
-翻訳のレビューには、@takaesu0が参加してくれた。
+翻訳のレビューには、@irohiroki、@takaesu0が参加してくれた。
 
 //Revisions
 ! 更新履歴
@@ -1501,4 +1501,5 @@ Jeff SutherlandとKen Schwaberが開発した
 
 // ! 翻訳更新履歴
 // * 2011-07-28    Reviewed by @takaesu0
+// * 2011-07-27    Reviewed by @irohiroki
 // * 2011-07-27    Init
