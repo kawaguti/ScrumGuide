@@ -1,11 +1,17 @@
 task :make_html do
-  `hikidoc ScrumGuide_ja.hiki > _build/ScrumGuide_ja.html`
-  content = ''
-  open('_build/ScrumGuide_ja.html', "r+") do |f|
-    content = f.read.gsub(/[\r\n]/, '')
-  end
-  content.gsub!(/<\/head>/, '<link rel="stylesheet" href="./style.css" type="text/css"></head>')
-  open('_build/ScrumGuide_ja.html', "w+") do |f|
-    f.write(content)
+  ["ScrumGuide_ja.hiki", "ScrumGuide2_ja.hiki"].each do |file|
+    html = file.gsub(/\.hiki/, '') + ".html"
+    `hikidoc --no-wikiname #{file} > _build/#{html}`
+    content = ''
+    open("_build/#{html}", "r+") do |f|
+      content = f.read.gsub(/[\r\n]/, '')
+    end
+    content.gsub!(/<\/head>/,
+                  '<meta http-equiv="Content-Type" content="text/html; charset=utf-8">' +
+                  '<link rel="stylesheet" href="./style.css" type="text/css">'+
+                  '</head>')
+    open("_build/#{html}", "w+") do |f|
+      f.write(content)
+    end
   end
 end
