@@ -1,0 +1,1497 @@
+//THE SCRUM GUIDE
+スクラムガイド
+
+// Definitive Guide to Scrum:
+// The Rules of the Game
+スクラム完全ガイド: ゲームのルール
+
+// July 2011
+2011年7月
+
+// Developed and sustained by Ken Schwaber and Jeff Sutherland
+
+// [目次]
+
+// Purpose of the Scrum Guide
+! スクラムガイドの目的
+
+// Scrum is a framework for developing and sustaining complex products 
+// This Guide contains the definition of Scrum. 
+// This definition consists of Scrum's roles, events, artifacts, and the rules that bind them together. Ken Schwaber and Jeff Sutherland developed Scrum; the Scrum Guide is written and provided by them. We stand behind the Scrum Guide.
+
+スクラムは、複雑なプロダクトを開発・維持するためのフレームワークである。
+本ガイドでは、スクラムの定義を説明する。
+スクラムの定義には、
+スクラムの役割、イベント、成果物、そして、それらをまとめるルールが含まれる。
+スクラムは、
+Ken SchwaberとJeff Sutherlandによって開発された。
+スクラムガイドは、この両者が執筆・提供・支援するものである。
+
+// Scrum Overview
+! スクラムの概要
+
+// Scrum (n): A framework within which people can address complex adaptive problems, while productively and creatively 
+// 	delivering products of the highest possible value. Scrum is:
+
+スクラム（名詞）：複雑で変化の激しい問題に対応するためのフレームワークであり、可能な限り価値の高いプロダクトを、生産的かつ創造的に届けるためのものである。スクラムとは、次のようなものである：
+
+// "	Lightweight
+// "	Simple to understand
+// "	Extremely difficult to master
+
+* 軽量
+* 理解が容易
+* 習得が困難
+
+// Scrum is a process framework 
+// 	that has been used to manage complex product development 
+// 	since the early 1990s. 
+// Scrum is not a process or a technique 
+// 	for building products; 
+// rather, it is a framework 
+// 	within which you can employ various processes and techniques. 
+// Scrum makes clear the relative efficacy of your product management 
+// 	and development practices 
+// 	so that you can improve.
+
+スクラムは、1990年代から複雑なプロダクト開発の管理に使用されてきたプロセスフレームワークである。
+プロダクトを構築するプロセスや技法ではなく、
+さまざまなプロセスや技法を取り入れることのできるフレームワークだ。
+プロダクト管理や開発プラクティスを改善できるように、
+それらの相対的効果を明確化するものである。
+
+// Scrum Framework
+!! スクラムフレームワーク
+
+// The Scrum framework consists of Scrum Teams and their associated roles, events, artifacts, and rules. Each component within the framework serves a specific purpose and is essential to Scrum's success and usage. 
+
+スクラムフレームワークは、
+スクラムチーム・役割・イベント・成果物・ルールで構成される。
+それぞれに目的があり、
+スクラムの利用や成功に欠かせないものである。
+
+// Specific strategies for using the Scrum framework vary and are described elsewhere.
+
+スクラムフレームワークを使用する戦略にはさまざまなものがあり、
+それらについては別のところで記述するものとする。
+
+// The rules of Scrum bind together the events, roles, and artifacts, 
+// 	governing the relationships and interaction between them. 
+// The rules of Scrum 
+//	are described throughout the body of this document.
+
+スクラムのルールは、
+役割・イベント・成果物をまとめ、
+それらの関係性や相互作用を統括するものである。
+スクラムのルールについては、本稿全体を通して説明する。
+
+// Scrum Theory
+! スクラムの理論
+
+// Scrum is founded on empirical process control theory, or empiricism. 
+// Empiricism asserts 
+//	that knowledge comes from experience and 
+//	making decisions based what is true and known. 
+// Scrum employs an iterative, incremental approach to optimize predictability and control risk. 
+
+スクラムは、経験的プロセス制御の理論（経験主義）を基本にしている。
+経験主義とは、
+事実や既知のものから経験や判断をすることによって、
+知識が獲得できるというものである。
+スクラムでは、
+反復的で漸進的な手法を用いて、
+予測可能性を最適化し、リスクを管理する。
+
+
+// Three pillars uphold every implementation of empirical process control: transparency, inspection, and adaptation.
+
+経験的プロセス制御の実現は、3本の脚に支えられている。
+透明性・検査・適応である。
+
+// Transparency
+!! 透明性
+
+// Significant aspects of the process 
+// 	must be visible to those responsible for the outcome. 
+// Transparency requires those aspects be defined by a common standard 
+//		so observers share a common understanding of what is being seen.
+
+プロセスで重要なのは、
+成果物の責任者にプロセスが見える化されていることである。
+透明性は、この点がきちんと標準化され、
+関係者が共通理解を持つことを求めるものである。
+
+// For example:
+例：
+
+// "	A common language referring to the process must be shared by all participants; and,
+// "	A common definition of "Done"  
+//	must be shared by those performing the work and those accepting the work product.
+
+* プロセスを指す用語が、関係者全員で共有されていなければならない。
+* 「完了（done）」の定義[1]が、作業をする人と、成果物を受け取る人で共有されていなければならない。
+
+// See "Definition of "Done"", p. 15. 
+[1] 15ページの『「完了」の定義』を参照。
+
+// Inspection
+!! 検査
+
+// Scrum users must frequently inspect 
+// 	Scrum artifacts and progress toward a goal 
+// 	to detect undesirable variances. 
+// Their inspection should not be so frequent that inspection gets in the way of the work. 
+// Inspections are most beneficial 
+// 	when diligently performed by skilled inspectors 
+//	at the point of work.
+
+スクラムでは、
+好ましくない変化を検知できるように、
+成果物や進捗がゴールに向かっているかを
+頻繁に検査しなければならない。
+ただし、検査を頻繁にやりすぎて、作業の妨げになってはいけない。
+検査は、
+熟練の検査人が念入りに行うことで、
+最大の効果をもたらす。
+
+// Adaptation
+!! 適応
+
+// If an inspector determines 
+// 	that one or more aspects of a process deviate outside acceptable limits, 
+// 	and that the resulting product will be unacceptable, 
+// 	the process or the material being processed must be adjusted. An adjustment must be made as soon as possible to minimize further deviation.
+
+プロセスに不備があり、
+成果物であるプロダクトを受け入れられないと検査人が判断した場合、
+プロセスやその構成要素を調整しなければならない。
+調整はできるだけ早く行い、
+これ以上の逸脱を防がなければならない。
+
+// Scrum prescribes four formal opportunities for inspection and adaptation, 
+//	as described in the Scrum Events section of this document.
+
+スクラムでは、次のような
+検査と適応を行う機会を公式に設けている。
+詳しくは、「スクラムイベント」の節で説明する。
+
+// "	Sprint Planning Meeting
+// "	Daily Scrum 
+// "	Sprint Review Meeting
+// "	Sprint Retrospective
+
+* スプリント計画ミーティング
+* デイリースクラム
+* スプリントレビューミーティング
+* スプリントレトロスペクティブ
+
+// Scrum
+! スクラム
+
+// Scrum is a framework structured to support complex product development. Scrum consists of Scrum Teams and their associated roles, events, artifacts, and rules. Each component within the framework serves a specific purpose and is essential to Scrum's success and usage. 
+
+スクラムは、複雑なプロダクト開発を支援するためのフレームワークである。
+// ★以降、前に出現。同じもの。
+スクラムは、
+スクラムチーム・役割・イベント・成果物・ルールで構成される。
+それぞれに目的があり、
+スクラムの利用や成功に欠かせないものである。
+
+// The rules of Scrum bind together the events, roles, and artifacts, governing the relationships and interaction between them. The rules of Scrum are described throughout the body of this document.
+
+// ★前に出現。同じもの。
+スクラムのルールは、
+役割・イベント・成果物をまとめ、
+それらの関係性や相互作用を統括するものである。
+スクラムのルールについては、本稿全体を通して説明する。
+
+// The Scrum Team
+! スクラムチーム
+
+// The Scrum Team consists of a Product Owner, the Development Team, and a Scrum Master. Scrum Teams are self-organizing and cross functional. Self-organizing teams choose how best to accomplish their work, 
+// 	rather than being directed by others outside the team. 
+// Cross-functional teams have 
+// 	all competencies needed to accomplish the work 
+// 	without depending on others not part of the team. 
+// The team model in Scrum is designed to optimize flexibility, creativity, and productivity. 
+
+スクラムチームは、
+プロダクトオーナー・開発チーム・スクラムマスターで構成される。
+スクラムチームは、自己組織化されており、機能横断的である。
+自己組織化されたチームは、
+作業を成し遂げるための最善の策を、チーム外からの指示ではなく、自ら選択する。
+機能横断的チームは、
+チーム外に頼らずに作業を成し遂げる能力を持っている。
+スクラムにおけるチームのモデルは、
+柔軟性・創造性・生産性に最適化されたものとなっている。
+
+// Scrum Teams deliver products iteratively and incrementally, maximizing opportunities for feedback. Incremental deliveries of ""Done"" product ensure a potentially useful version of working product is always available.
+
+スクラムチームは、
+プロダクトを反復的・漸進的に届ける。
+これは、フィードバックの機会を最大化するためである。
+「完了」したプロダクトを漸進的に届けることで、
+動作するプロダクトが常に利用可能な状態にしている。
+
+// The Product Owner
+!! プロダクトオーナー
+
+// The Product Owner is responsible for maximizing the value the product 
+// 	and the work of the Development Team. 
+// How this is done may vary widely across organizations, 
+//	Scrum Teams, and individuals.
+
+プロダクトオーナーは、
+プロダクトの価値と開発チームの作業を
+最大化することに責任を持つ。
+その作業は、
+組織・スクラムチーム・個人によって、
+大きく異なる。
+
+// The Product Owner is 
+//	the sole person responsible for managing the Product Backlog. 
+// Product Backlog management includes:
+
+プロダクトオーナーは、
+プロダクトバックログの管理に
+責任を持つ唯一の人物である。
+プロダクトバックログの管理には、
+次のようなものがある。
+
+//"	Clearly expressing Product Backlog items;
+//"	Ordering the items in the Product Backlog to best achieve goals and missions; 
+//"	Ensuring the value of the work the Development Team performs;
+//"	Ensuring that the Product Backlog is visible, transparent, and clear to all, and shows what the Scrum Team will work on next; and,
+//"	Ensuring the Development Team understands items in the Product Backlog to the level needed. 
+
+* プロダクトバックログの項目を明確に表現する。
+* ゴールとミッションを達成できるようにプロダクトバックログの項目を並び替える。
+* 開発チームが行う作業の価値を保証する。
+* 全員にプロダクトバックログを見える化・透明化・明確化し、スクラムチームに次の作業を伝える。
+* プロダクトバックログの項目を開発チームが理解できるようにする。
+
+// The Product Owner may do the above work, 
+//	or have the Development Team do it. 
+// However, the Product Owner remains accountable.
+
+上記の作業は、
+プロダクトオーナーが行う場合もあれば、
+開発チームが行う場合もある。
+いずれの場合も、
+最終的な責任はプロダクトオーナーが持つ。
+
+// The Product Owner is one person, not a committee. The Product Owner may represent the desires of a committee in the Product Backlog, but those wanting to change a backlog item's priority must convince the Product Owner. 
+
+プロダクトオーナーは1人の人間であり、委員会であってはならない。
+委員会の要求をプロダクトオーナーがプロダクトバックログに反映することもできるが、
+優先度を変えるにはプロダクトオーナーが納得しなければならない。
+
+// For the Product Owner to succeed, 
+//	the entire organization must respect his or her decisions. The Product Owner's decisions are visible in the content and prioritization of the Product Backlog. 
+// No one is allowed to tell the Development Team to work from a different set of priorities, and the Development Team isn't allowed to act on what anyone else says.  
+
+プロダクトオーナーが成功するには、
+組織全体でプロダクトオーナーの意見を尊重しなければならない。
+プロダクトオーナーの決定は、
+プロダクトバックログの内容や優先度という形で見える化されている。
+開発チームの作業の優先度を変更できるのは、プロダクトオーナーだけである。
+また、開発チームも他からの作業依頼を受け付けてはいけない。
+
+// The Development Team
+!! 開発チーム
+
+// The Development Team consists of professionals 
+//	who do the work of delivering a potentially releasable Increment of "Done" product 
+//	at the end of each Sprint. 
+//Only members of the Development Team create the Increment.
+
+開発チームは、
+リリース判断可能な
+「完了」したプロダクトのインクリメントを、
+各スプリントの終わりに届けることのできる専門家で構成されている。
+インクリメントを作成できるのは、
+開発チームのメンバだけである。
+
+//Development Teams are structured and empowered by the organization 
+//	to organize and manage their own work. 
+//The resulting synergy optimizes 
+//	the Development Team's overall efficiency and effectiveness. 
+//Development Teams have the following characteristics:
+
+開発チームは、
+自らの作業を構成・管理するものであり、
+そのことは組織からも認められている。
+その相乗効果によって、
+開発チーム全体の効率と効果が最適化される。
+開発チームには、次のような特徴がある。
+
+//"	They are self-organizing. No one (not even the Scrum Master) tells the Development Team how to turn Product Backlog into Increments of potentially releasable functionality; 
+
+// "	Development Teams are cross-functional, with all of the skills as a team necessary to create a product Increment; 
+
+//"	Scrum recognizes no titles for Development Team members other than Developer. Regardless of the work being performed by the person, there are no exceptions to this rule;
+
+//"	Individuals Development Team members may have specialized skills and areas of focus, but accountability belongs to the Development Team as a whole; and,
+
+
+//"	Development Teams do not contain sub-teams dedicated to particular domains like testing or business analysis.
+
+* 自己組織化されている。プロダクトバックログをリリース判断可能なインクリメントに変える方法は誰も（スクラムマスターでさえも）教えてくれない。
+* 機能横断的である。インクリメントを作成するスキルをチームとしてすべて備えている。
+* メンバの肩書きは開発者しかない。ある人にしかできない作業があったとしても、このルールに例外はない。
+* メンバに専門能力や専門分野があったとしても、最終的な責任は開発チーム全体が持つ。
+* テストやビジネス分析などに特化したサブチームは存在しない。
+
+//Development Team Size
+!!! 開発チームの規模
+
+// Optimal Development Team size is 
+// 	small enough to remain nimble and 
+// 	large enough to complete significant work. 
+// Fewer than three Development Team members 
+// 	decrease interaction and 
+// 	results in smaller productivity gains. 
+// Smaller Development Teams may encounter skill constraints during the Sprint, 
+// 	causing the Development Team 
+// 	to be unable to deliver a potentially releasable Increment. 
+// Having more than nine members 
+// 	requires too much coordination. 
+// Large Development Teams 
+// 	generate too much complexity for an empirical process to manage. 
+// The Product Owner and Scrum Master roles are not included in this count unless they are also executing the work of the Sprint Backlog.
+
+開発チームに最適な人数は、
+小回りが効く程度に少なく、
+重要な作業が成し遂げられる程度に多い人数である。
+開発チームのメンバが3人未満の場合は、
+相互作用が少なく、生産性の向上につながらない。
+また、チームの規模の小さいと、
+スキル不足という理由から、
+スプリントで出荷判断可能なインクリメントを届けられない可能性もある。
+メンバーが9人を超える場合は、調整の機会が多くなってしまう。
+また、チームの規模が大きいと、
+経験的プロセスの管理が複雑になってしまう。
+スプリントバックログの作業に携わらないのであれば、
+プロダクトオーナーとスクラムマスターはこの人数には含まない。
+
+// The Scrum Master
+!! スクラムマスター
+
+// The Scrum Master is responsible for ensuring Scrum 
+//	is understood and enacted. 
+//Scrum Masters do this by ensuring that 
+//	the Scrum Team adheres to Scrum theory, practices, and rules. 
+//The Scrum Master is a servant-leader for the Scrum Team. 
+
+スクラムマスターは、
+スクラムの理解と成立に責任を持つ。
+そのためにスクラムマスターは、
+スクラムチームにスクラムの理論・プラクティス・ルールを守ってもらうようにする。
+スクラムマスターは、スクラムチームのサーバントリーダー（訳注：メンバーが成果をあげるために支援や奉仕をするリーダーのこと）である。
+
+//The Scrum Master helps those outside the Scrum Team 
+// understand which of their interactions with the Scrum Team are helpful and which aren't.
+//The Scrum Master helps everyone change these interactions 
+//	to maximize the value created by the Scrum Team.
+
+スクラムマスターは、
+スクラムチームとの相互作用で役に立つこと／立たないことを、
+スクラムチームの外部の人たちに理解してもらうようにする。
+スクラムマスターは、
+みんなの相互作用の変化を手伝い、
+スクラムチームの作る価値を最大化する。
+
+//Scrum Master Service to the Product Owner
+!!! プロダクトオーナーの支援
+
+//The Scrum Master serves the Product Owner in several ways, including:
+
+スクラムマスターは、
+さまざまな形でプロダクトオーナーを支援する。
+
+//"	Finding techniques for effective Product Backlog management;
+//"	Clearly communicating vision, goals, and Product Backlog items to the Development Team;
+//"	Teaching the Development Team to create clear and concise Product Backlog items;
+//"	Understanding long-term product planning in an empirical environment;
+//"	Understanding and practicing agility; and,
+//"	Facilitating Scrum events as requested or needed.
+
+* 効果的なプロダクトバックログの管理方法を探す。
+* ビジョン・ゴール・バックログの項目を明確に開発チームに伝える。
+* プロダクトバックログの項目を明確・簡潔に作る方法を開発チームに教える。
+* 経験主義の環境における長期のプロダクト計画について理解する。
+* アジャイルを理解・実践する。
+* 要望・必要に応じてスクラムイベントをファシリテートする。
+
+//Scrum Master Service to the Development Team
+!!! 開発チームの支援
+
+//The Scrum Master serves the Development Team in several ways, including:
+
+スクラムマスターは、
+さまざまな形で開発チームを支援する。
+
+//"	Coaching the Development Team in self-organization and cross-functionality;
+//"	Teaching and leading the Development Team to create high value products;
+//"	Removing impediments to the Development Team's progress;
+//"	Facilitating Scrum events as requested or needed; and,
+//"	Coaching the Development Team in organizational environments in which Scrum is not yet fully adopted and understood.
+
+* 自己組織化と機能横断について開発チームにコーチする。
+* 高価値のプロダクトを作る方法を開発チームに教育・指導する。
+* 開発チームの進捗を妨げるものを排除する。
+* 要望・必要に応じてスクラムイベントをファシリテートする。
+* スクラムがまだ完全に適用・理解されていない組織環境では、開発チームをコーチする。
+
+//Scrum Master Service to the Organization
+!!! 組織の支援
+
+//The Scrum Master serves the organization in several ways, including:
+スクラムマスターは、
+さまざまな形で組織を支援する。
+
+//"	Leading and coaching the organization in its Scrum adoption; 
+//"	Planning Scrum implementations within the organization; 
+//"	Helping employees and stakeholders understand and enact Scrum and empirical product development;
+//"	Causing change that increases the productivity of the Scrum Team; and,
+//"	Working with other Scrum Masters to increase the effectiveness of the application of Scrum in the organization.
+
+* スクラムの導入を指導・コーチする。
+* スクラムの推進を計画する。
+* スクラムと経験的プロダクト開発を従業員や関係者に理解・実施してもらう。
+* スクラムチームの生産性を高めるような変化を促す。
+* 他のスクラムマスターと一緒に組織のスクラム導入の効果を高める。
+
+//Scrum Events
+! スクラムイベント
+
+//Prescribed events are used in Scrum 
+//	to create regularity and to minimize the need for meetings 
+//	not defined in Scrum. 
+//Scrum uses time-boxed events, 
+//	such that every event has a maximum duration. 
+// This ensures an appropriate amount of time is spent planning without allowing waste in the planning process. 
+
+スクラムでは、
+イベントを設けて規則性を作り出し、
+スクラムで定義されていない会議の必要性を最小限にしている。
+イベントには、時間に上限のあるタイムボックスを使う。
+これは、計画プロセスで時間を無駄にしないためである。
+
+//Other than the Sprint itself, 
+//	which is a container for all other events, 
+//	each event in Scrum is an opportunity to inspect and adapt something. 
+//These events are specifically designed 
+//	to enable critical transparency and inspection. 
+//Failure to include any of these events 
+//	results in reduced transparency and 
+//	is a lost opportunity to insect and adapt.
+
+
+スプリント以外のすべてのスクラムイベントは、
+何かを検査・適応する機会である。
+これらのイベントは、
+重要な透明性や検査を実現できるように設計されている。
+これらのイベントがなければ、
+透明性は低下し、
+検査・適応の多くの機会を失うのである。
+
+//The Sprint
+!! スプリント
+
+//The heart of Scrum is a Sprint, a time-box of one month or less during which a "Done", useable, and potentially releasable product Increment is created. 
+// Sprints have consistent durations throughout a development effort. 
+//A new Sprint starts immediately after the conclusion of the previous Sprint.
+
+スクラムの中心はスプリントである。
+これは、「完了」した、動作する、リリース判断可能なプロダクトのインクリメントを作るための、1か月以下のタイムボックスである。
+スプリントは、
+開発作業を行う連続した期間である。
+スプリントが終了すると、新しいスプリントが開始する。
+
+//Sprints contain and consist of the Sprint Planning Meeting, Daily Scrums, the development work, the Sprint Review, and the Sprint Retrospective. 
+
+スプリントは、
+スプリント計画ミーティング・
+デイリースクラム・
+開発作業・
+スプリントレビュー・
+スプリントレトロスペクティブ
+で構成される。
+
+//During the Sprint: 
+スプリントでは、
+
+//"	No changes are made that would affect the Sprint Goal; 
+//"	Development Team composition and quality goals remain constant; and,
+//"	Scope may be clarified and re-negotiated between the Product Owner and Development Team as more is learned.
+
+* スプリントゴールに影響する変更を加えない。
+* 開発チームの編成と品質目標に変更を加えない。
+* 開発チームが学習するなかで、スコープが明確化され、プロダクトオーナーとの交渉が必要になる可能性がある。
+
+//Each Sprint may be considered a project 
+//	with no more than a one-month horizon. Like projects, Sprints are used to accomplish something.
+//Each Sprint has of a definition of what is to be built, a design and flexible plan that will guide building it, the work, and the resultant product. 
+
+スプリントは1か月以内のプロジェクトと考えることができる。
+プロジェクト同様、
+スプリントは何かを成し遂げるために使う。
+スプリントには、
+開発対象の定義・
+開発のための設計や柔軟な計画・
+開発作業・
+成果物となるプロダクト
+が含まれる。
+
+// Sprints are limited to one calendar month. 
+// When a Sprint's horizon is too long 
+// 	the definition of what is being built may change, 
+// 	complexity may rise, and risk may increase. 
+// Sprints enable predictability 
+// 	to inspection and adaptation progress 
+// 	toward a goal 
+// 	at least every calendar month. 
+// Sprints also limit risk to one calendar month of cost.
+
+スプリントの期間は1か月以内である。
+スプリントが長すぎると、
+開発対象の定義が変更されたり、
+複雑度が上昇したり、リスクが増大したりする可能性がある。
+スプリントでは、
+ゴールへの進捗を少なくとも1か月ごとに検査・適応して、
+予測可能にしている。
+また、リスクも1か月分のコストに収まるようにしている。
+
+//Cancelling a Sprint
+!!! スプリントの中止
+
+// A Sprint can be cancelled 
+// 	before the Sprint time box is over. 
+// Only the Product Owner has the authority to cancel the Sprint, 
+// 	although he or she may do so under influence from the stakeholders, 
+//the Development Team, or the Scrum Master. 
+
+スプリントはタイムボックスの終了前に中止できる。
+スプリントを中止する権限があるのは、プロダクトオーナーだけである。
+このとき、関係者・チーム・スクラムマスターの意見を参考にすることもできる。
+
+// A Sprint would be cancelled if the Sprint Goal becomes obsolete. 
+// This might occur if the company changes direction or if market or technology conditions change. 
+// In general, 
+//	a Sprint should be cancelled 
+//	if it no longer makes sense given the circumstances. 
+//But, due to the short duration of Sprints, 
+//	it rarely makes sense to do so.
+
+スプリントゴールが古くなったらスプリントを中止する。
+会社の方向性や市場・技術の状況が変化すると、
+スプリントゴールが古くなってしまう。
+通常、条件が変化した場合は、スプリントを中止すべきである。
+ただし、スプリントの期間は短いため、
+中止したからといってさほど意味をなすことはない。
+
+//When a Sprint is cancelled, any completed and "Done" Product Backlog Items are reviewed. If part of the work is potentially shippable, the Product Owner typically accepts it. 
+// All incomplete Product Backlog Items are re-estimated put back on the Product Backlog. The work done on them depreciates quickly and must be frequently re-estimated. 
+
+スプリントを中止したら、
+プロダクトバックログの「完了」した項目をレビューする。
+出荷判断可能なものであれば、プロダクトオーナーが受け入れる。
+未完成のものは、プロダクトバックログに戻す。
+かかった作業は失われたものとなるので、
+再見積もりが必要になることが多い。
+
+//Sprint cancellations consume resources,
+//	since everyone has to regroup in another Sprint Planning Meeting 
+//	to start another Sprint. 
+//Sprint cancellations are often traumatic to the Scrum Team, and are very uncommon.
+
+スプリントが中止になると、
+新しいスプリント向けのスプリント計画ミーティングが必要となり、
+それを開催するリソースを消費してしまう。
+スプリントの中止によって、チームのトラウマになることもある。
+しかし、中止はめったに起きないことである。
+
+//Sprint Planning Meeting
+!! スプリント計画ミーティング
+
+//The work to be performed in the Sprint 
+//	is planned at the Sprint Planning Meeting. 
+//This plan is created by the collaborative work of the entire Scrum Team.
+
+スプリントの作業は、
+スプリント計画ミーティングで計画する。
+計画はスクラムチームの共同作業である。
+
+
+//The Sprint Planning Meeting is 
+//	time-boxed to eight hours for a one-month Sprint. 
+//For shorter Sprints, 
+//	the event is proportionately shorter. 
+//For example, two-week Sprints have four-hour Sprint Planning Meetings. 
+
+スプリントが1か月の場合、
+スプリント計画ミーティングのタイムボックスは8時間である。
+スプリントの期間が短ければ、その長さに比例して時間が短くなる。
+たとえば、スプリントが2週間の場合、
+スプリント計画ミーティングは4時間になる。
+
+//The Sprint Planning Meeting consists of two parts, 
+//	each one being a time-box of one half of the Sprint Planning Meeting duration. The two parts of the Sprint Planning Meeting answer the following questions, respectively:
+
+スプリント計画ミーティングは2部構成となる。
+それぞれ半分ずつのタイムボックスを使い、
+次の質問に答える。
+
+//"	What will be delivered in the Increment resulting from the upcoming Sprint?
+//"	How will the work needed to deliver the Increment be achieved?
+
+* スプリントの成果であるインクリメントに何を入れるか？
+* インクリメントを届けるためにどのように作業をするか？
+
+//Part One: What will be done this Sprint?
+!!! 第1部：スプリントで何をするか？
+
+//In this part, 
+//	the Development Team works to forecast the functionality 
+//	that will be developed during the Sprint. 
+//The Product Owner presents the top priority Product Backlog items to the Development Team 
+//	and the entire Scrum Team collaborates on understanding the work of the Sprint. 
+
+第1部では、
+開発チームがスプリントで開発する機能を計画する。
+プロダクトオーナーが
+プロダクトバックログの優先項目を開発チームに渡し、
+スクラムチーム全体で協力して、
+スプリントの作業を理解する。
+
+//The input to this meeting is the Product Backlog, the latest product Increment, projected capacity of the Development Team during the Sprint, and past performance of the Development Team. 
+//The number of items selected from the Product Backlog for the Sprint 
+//	is solely up to the Development Team. 
+//Only the Development Team can assess 
+//	what it can accomplish over the upcoming Sprint.
+
+入力は、
+プロダクトバックログ・
+最新のプロダクトインクリメント・
+開発チームがスプリントで発揮する作業能力の予測・
+開発チームの過去の実績である。
+プロダクトバックログから選択する項目数については、
+開発チームが責任を持つ。
+次のスプリントで何を達成するかを評価できるのは、
+開発チームだけである。
+
+//After the Development Team forecasts the Product Backlog items it will deliver in the Sprint, 
+//	the Scrum Team crafts a Sprint Goal. 
+//The Sprint Goal is an objective 
+//	that will be met within the Sprint through the implementation of the Product Backlog, 
+//	and it provides guidance to the Development Team on why it is building the Increment.
+
+次に、スクラムチームでスプリントゴールを作る。
+スプリントゴールは、
+プロダクトバックログを実装して達成するスプリントの目標であり、
+開発チームにとっては、
+なぜそのインクリメントを開発するのかという指針になる。
+
+//Part Two: How will the chosen work get done?
+!!! 第2部：選択した項目をどのように完了するか？
+
+//Having selected the work of the Sprint, 
+//	the Development Team decides 
+//	how it will build this functionality into a "Done" product Increment during the Sprint. 
+//The Product Backlog items selected for this Sprint 
+//	plus the plan for delivering them is called the Sprint Backlog
+
+スプリントの作業を選択したら、
+その機能を「完了」プロダクトインクリメントにする方法を
+開発チームが決定する。
+スプリントで作業を行うプロダクトバックログの項目と、
+それを届ける計画を合わせて、
+スプリントバックログと呼ぶ。
+
+//The Development Team usually 
+//	starts by designing the system and the work 
+//		needed to convert the Product Backlog into working product increment. 
+//Work may be of varying size, or estimated effort. 
+//However, 
+//	enough work is planned during the Sprint Planning meeting 
+//	for the Development Team 
+//		to forecast 
+//		what it believes 
+//		it can do in the upcoming Sprint. 
+//Work planned for the first days of the Sprint 
+//	by the Development Team 
+//	is decomposed to units of one day or less 
+//	by the end of this meeting. 
+//The Development Team self-organizes to undertake the work 
+//	in the Sprint Backlog, 
+//	both during the Sprint Planning Meeting and as needed throughout the Sprint.
+
+開発チームは、
+プロダクトバックログを動くプロダクトインクリメントにする
+システムや作業の設計から始めることが多い。
+作業の規模や見積もり工数はさまざまだが、
+スプリント計画ミーティングでは、
+開発チームがスプリントで達成できると予測できる程度の作業を計画する。
+スプリントの最初の数日間で開発チームが行う作業は、このミーティングで1日以下の単位に分解される。
+スプリント計画ミーティングでは、
+開発チームが自己組織化して、
+スプリントバックログの作業を受け持つ。
+必要であればスプリントの最中にも行う。
+
+//The Product Owner may be present during the second part of the Sprint Planning Meeting 
+//	to clarify the selected Product Backlog items 
+//	and to help make trade-offs. 
+//If the Development Team 
+//	determines it has too much or too little work, 
+//	it may renegotiate the Sprint Backlog items with the Product Owner. 
+//The Development Team 
+//	may also invite other people 
+//	to attend in order to provide technical or domain advice. 
+
+第2部にプロダクトオーナーが参加して、
+選択された項目を明確にしたりトレードオフを助けたりすることもできる。
+作業が多すぎたり少なすぎたりした場合は、
+開発チームとプロダクトオーナーが、
+スプリントバックログの項目について話し合う。
+開発チームは、
+技術やドメインに関して助言してくれる人たちを招待することもある。
+
+//By the end of the Sprint Planning meeting, the Development Team should be able to explain to the Product Owner and Scrum Master how it intends to work as a self-organizing team to accomplish the Sprint Goal and create the anticipated Increment. 
+
+開発チームは、
+スプリントゴールを達成し、
+期待されたインクリメントを作成するために、
+自己組織化チームとしてどのように作業を行うのかを、
+スプリント計画ミーティングの終了までに
+プロダクトオーナーとスクラムマスターに
+説明できるようにしておかなければならない。
+
+//Sprint Goal
+!!! スプリントゴール
+
+//The Sprint Goal gives the Development Team some flexibility 
+//	regarding the functionality implemented within the Sprint. 
+
+スプリントゴールによって、
+スプリントで実装する機能に柔軟性が出てくる。
+
+//As the Development Team works, it keeps this goal in mind. 
+//In order to satisfy the Sprint Goal, 
+//	it implements the functionality and technology. 
+//If the work turns out to be different than the Development Team expected, 
+//	then they collaborate with the Product Owner 
+//		to negotiate the scope of Sprint Backlog within the Sprint. 
+
+開発チームが作業をするときは、このスプリントゴールを心にとどめておく。
+スプリントゴールを達成するには、
+機能と技術を満たさなければならない。
+開発チームの予想が外れた場合は、
+プロダクトオーナーに相談して、
+スプリントバックログのスコープを調整する。
+
+//The Sprint Goal may be a milestone 
+//	in the larger purpose of the product roadmap.
+
+スプリントゴールは、
+大きなプロダクトロードマップのマイルストーンになることもある。
+
+//Daily Scrum
+!! デイリースクラム
+
+//The Daily Scrum meeting is a 15-minute time-boxed event for the Development Team to synchronize activities and create a plan for the next 24 hours. 
+//This is done by inspecting the work 
+//	since the last Daily Scrum and 
+//	forecasting the work that could be done before the next one.
+
+デイリースクラムは、
+開発チームが活動の状況を確認し、
+次の24時間の計画を作る15分のタイムボックスである。
+前回のデイリースクラムから行った作業の点検と、
+次回のデイリースクラムまでに行う作業の予測を行う。
+
+//The Daily Scrum is 
+//	at the same time and place each day to reduce complexity. 
+//During the meeting, each Development Team member explains:
+
+デイリースクラムは、複雑にならないように、
+毎日、同じ時間・場所で開催する。
+デイリースクラムでは、
+開発チームメンバが次のことを説明する。
+
+//"	What has been accomplished since the last meeting?
+//"	What will be done before the next meeting?
+//"	What obstacles are in the way?
+
+* 前回のデイリースクラム以降に行ったこと
+* 次回のデイリースクラムまでに行うこと
+* 問題点
+
+//The Development Team uses the Daily Scrum 
+//	to assess progress toward the Sprint Goal 
+//	and to assess how progress is trending toward completing the work 
+//	in the Sprint Backlog. 
+//The Daily Scrum 
+//	optimizes the probability 
+//	that the Development Team will meet the Sprint Goal. 
+//The Development Team often meets immediately 
+//	after the Daily Scrum to re-plan the rest of the Sprint's work. 
+//Every day, 
+//	the Development Team should be able to explain 
+//	to the Product Owner and Scrum Master 
+//	how it intends to work together as a self-organizing team 
+//	to accomplish the goal and create the anticipated increment 
+//	in the remainder of the Sprint.
+
+開発チームはデイリースクラムを使って、
+スプリントゴールと
+スプリントバックログの作業の進捗を評価する。
+デイリースクラムによって、
+開発チームがスプリントゴールを達成する可能性を最適化できる。
+デイリースクラムが終わったら、
+開発チームはすぐにスプリントの残作業を再計画する。
+開発チームは、
+スプリントゴールを達成し、
+期待されたインクリメントを作成するために、
+スプリントの残り時間で自己組織化チームとしてどのように作業を行うのかを、
+プロダクトオーナーとスクラムマスターに
+毎日説明しなければならない。
+
+
+//The Scrum Master ensures 
+//	that the Development Team has the meeting, 
+//	but the Development Team is responsible for conducting the Daily Scrum. The Scrum Master teaches the Development Team to keep the Daily Scrum within the 15-minute time-box. 
+
+スクラムマスターは、開発チームがデイリースクラムを開催するようにする。
+ただし、デイリースクラムを開催する責任があるのは、開発チームである。
+スクラムマスターは、
+開発チームにデイリースクラムを15分以内に終わらせるように伝える。
+
+//The Scrum Master enforces the rule 
+//	that only Development Team members participate in the Daily Scrum. 
+//The Daily Scrum is not a status meeting, 
+//	and is for the people transforming the Product Backlog items into an Increment. 
+
+
+スクラムマスターは、
+デイリースクラムに参加できるのは
+開発チームのメンバだけというルールを設定する。
+デイリースクラムはステータスミーティングではなく、
+プロダクトバックログの項目をインクリメントに変える人たちのものである。
+
+//Daily Scrums improve communications, eliminate other meetings, identify and remove impediments to development, highlight and promote quick decision-making, and improve the Development Team's level of project knowledge. This is a key inspect and adapt meeting.
+
+
+デイリースクラムは、
+コミュニケーションを改善し、
+その他のミーティングを取り除き、
+開発の障害を特定・排除し、
+迅速な意思決定を助長して、
+開発チームのプロジェクト知識のレベルを向上させるものである。
+これは、重要な検査と適応のミーティングである。
+
+//Sprint Review
+!! スプリントレビュー
+
+//A Sprint Review meeting is held at the end of the Sprint to inspect the Increment and adapt the Product Backlog if needed. 
+//During the Sprint Review, 
+//	the Scrum Team and stakeholders collaborate about 
+//		what was done in the Sprint. 
+//Based on that and any changes to the Product Backlog during the Sprint, 		
+//	attendees collaborate on the next things that could be done. 
+//This is an informal meeting, and the presentation of the Increment is intended to elicit feedback and foster collaboration.
+
+スプリントレビューは、スプリントの終わりにインクリメントの検査と、
+必要であればプロダクトバックログの適応を行うものである。
+スプリントレビューでは、
+スクラムチームと関係者が、スプリントの作業についてレビューする。
+レビュー結果とプロダクトバックログの変更をもとにして、
+次にできることを議論する。
+これは非公式なミーティングであり、
+インクリメントを提示することで、
+フィードバックとさらなる協力を引き出すことができる。
+
+//This is a four-hour time-boxed meeting for one-month Sprints. 
+//Proportionately less time is allocated for shorter Sprints. For example, two week Sprints have two-hour Sprint Reviews. 
+
+スプリントが1か月の場合、
+スプリントレビューのタイムボックスは4時間である。
+スプリントの期間が短ければ、その長さに比例して時間が短くなる。
+たとえば、スプリントが2週間の場合、
+スプリントレビューは2時間になる。
+
+//The Sprint Review includes the following elements: 
+スプリントレビューには、以下の要素が含まれる。
+
+//"	The Product Owner identifies what has been "Done" and what has not been "Done";
+//"	The Development Team discusses what went well during the Sprint, what problems it ran into, and how those problems were solved;
+//"	The Development Team demonstrates the work that it has "Done" and answers questions about the Increment;
+//"	The Product Owner discusses the Product Backlog as it stands. He or she projects likely completion dates based on progress to date; and, 
+//"	The entire group collaborates on what to do next, so that the Sprint Review provides valuable input to subsequent Sprint Planning Meetings.
+
+* プロダクトオーナーは、「完了」したものと「完了」していないものを特定する
+* 開発チームは、スプリントでうまくいったこと・直面した問題点・それをどのように解決したかを議論する。
+* 開発チームは、「完了」したものをデモして、インクリメントに対する質問に答える。
+* プロダクトオーナーは、現在のプロダクトバックログについて議論する。現在の進捗から完了日を予測する。
+* グループ全体で次に何をするかを議論し、価値のある入力を次のスプリント計画ミーティングに提供する。
+
+//The result of the Sprint Review is a revised Product Backlog 
+//	that defines the probable Product Backlog items for the next Sprint. 
+// The Product Backlog may also be adjusted overall to meet new opportunities.
+
+スプリントレビューの成果は、
+次のスプリントで選択する項目を定義した
+プロダクトバックログの改訂版である。
+また、新しい状況に合わせて、
+プロダクトバックログ全体を調整することもある。
+
+// Sprint Retrospective
+!! スプリントレトロスペクティブ
+
+//The Sprint Retrospective is an opportunity for the Scrum Team 
+//	to inspect itself and 
+//	create a plan for improvements 
+//		to be enacted during the next Sprint. 
+
+スプリントレトロスペクティブは、
+スクラムチームの検査と
+スプリントの改善計画を作成する機会である。
+
+//The Sprint Retrospective occurs after the Sprint Review and prior to the next Sprint Planning Meeting. This is a three-hour time-boxed meeting for one-month Sprints. Proportionately less time is allocated for shorter Sprints. 
+
+スプリントレトロスペクティブは、
+スプリントレビューが終わって、
+次のスプリント計画ミーティングが始まる前に行う。
+スプリントが1か月の場合、
+スプリントレトロスペクティブのタイムボックスは4時間である。
+スプリントの期間が短ければ、その長さに比例して時間が短くなる。
+
+//The purpose of the Sprint Retrospective is to:
+スプリントレトロスペクティブの目的：
+
+//"	Inspect how the last Sprint went with regards to people, relationships, process, and tools;
+//"	Identify and order the major items that went well and potential improvements; and,
+//"	Create a plan for implementing improvements to the way the Scrum Team does its work.
+
+* 人・関係・プロセス・ツールの観点から最後のスプリントを検査する。
+* うまくいった項目や今後の改善点を特定・整理する。
+* スクラムチームの改善実施計画を作成する。
+
+//The Scrum Master encourages the Scrum Team to improve, within the Scrum process framework, its development process and practices to make it more effective and enjoyable for the next Sprint. 
+//During each Sprint Retrospective, 
+//	the Scrum Team plans ways to increase product quality 
+//		by expanding the Definition of "Done" as appropriate.
+
+スクラムマスターは、
+スクラムプロセスフレームワークの
+開発プロセスやプラクティスをより効果的にして、
+次のスプリントで楽しめるように、
+スクラムチームに改善を働きかける。
+開発チームは、
+「完了」の定義を適切に拡張して、
+プロダクトの品質を向上させる方法を計画する。
+
+
+//By the end of the Sprint Retrospective, 
+//	the Scrum Team should have identified improvements 
+//	that it will implement in the next Sprint. 
+//Implementing these improvements in the next Sprint is 
+//		the adaptation to the inspection of the Development Team itself. 
+//Although improvements may be implemented at any time, 
+//	the Sprint Review provides a dedicated event focused on inspection and adaptation.
+
+
+スプリントレトロスペクティブが終わるまでに、
+スクラムチームは次のスプリントで実施する改善策を特定しなければならない。
+これらの改善策は、開発チームの点検を適応したものだ。
+改善はいつでも実施できるが、
+スプリントレトロスペクティブは
+検査と適応に特化したイベントである。
+
+// Scrum Artifacts
+! スクラムの成果物
+
+//Scrum's artifacts represent work or value 
+//	in various ways 
+//	that are useful in providing transparency and 
+//		opportunities for inspection and adaptation. 
+//Artifacts defined by Scrum are specifically designed to maximize transparency of key information needed to ensure Scrum Teams are successful in delivering a "Done" Increment. 
+
+スクラムの成果物は、
+さまざまな形で作業や価値を表したものであり、
+透明性や検査・適応の機会に役に立つものである。
+スクラムで定義された成果物は、
+スクラムチームが「完了」インクリメントを確実に届けるために必要な情報の透明性を最大化できるように設計されている。
+
+//Product Backlog
+!! プロダクトバックログ
+
+//The Product Backlog is 
+//	an ordered list of everything 
+//	that might be needed in the product and 
+//	is the single source of requirements for any changes 
+//		to be made to the product. 
+//The Product Owner is responsible for the Product Backlog, including its content, availability, and ordering. 
+
+プロダクトバックログは、
+プロダクトに必要なものがすべて順序付きで一覧になったものであり、
+プロダクトに対する変更要求の唯一の情報源である。
+プロダクトオーナーは、
+プロダクトバックログの内容・可用性・順序に責任を持つ。
+
+//A Product Backlog is never complete. 
+//The earliest development of it only lays out the initially known 
+//	and best-understood requirements. 
+//The Product Backlog evolves 
+//	as the product and the environment in which it will be used evolves. 
+//The Product Backlog is dynamic; 
+//	it constantly changes 
+//	to identify what the product needs to be appropriate, 
+//	competitive, and useful. 
+//As long as a product exists, 
+//	a Product Backlog also exists.
+
+プロダクトバックログは決して完成しない。
+開発の初期段階には、
+最初からわかっていた要求やよく理解できた要求が並べられている。
+プロダクトバックログは、
+プロダクトや使用環境に合わせて変化するのである。
+プロダクトバックログは動的であり、
+適切で競争力のある有用なプロダクトに必要なものを求めて、絶えず変化する。
+プロダクトが存在する限り、プロダクトバックログは不滅である。
+
+//The Product Backlog lists all features, functions, requirements, enhancements, and bug fixes that constitute the changes to be made to the product in future releases. Product Backlog items 
+//	have the attributes of a description, order, and estimate. 
+
+プロダクトバックログは、
+今後のリリースで実装するプロダクトのフィーチャ・機能・要求・要望・バグフィックスをすべて一覧にしている。
+プロダクトバックログの項目には、
+詳細・並び順・見積もりの属性が設けられている。
+
+//The Product Backlog is often ordered 
+//	by value, risk, priority, and necessity. 
+//Top-ordered Product Backlog items 
+//	drive immediate development activities. 
+//The higher the order, 
+//	the more a Product Backlog item has been considered, 
+//	and the more consensus exists regarding it and its value.
+
+プロダクトバックログは、
+価値・リスク・優先度・必要性などで並べられている。
+1番上の項目から開発を開始する。
+順番が上の項目ほどよく考えられており、
+その項目や価値について合意がとれたものである。
+
+//Higher ordered Product Backlog items are 
+//	clearer and more detailed than lower ordered ones. 
+//More precise estimates are made 
+//	based on the greater clarity and increased detail; 
+//	the lower the order, the less detail. 
+//Product Backlog items 
+//	that will occupy the Development Team 
+//	for the upcoming Sprint are fine-grained, having been decomposed so that any one item can be "Done" within the Sprint time-box. Product Backlog items that can be "Done" by the Development Team within one Sprint are deemed "ready" or "actionable" for selection in a Sprint Planning meeting.
+
+順番が上の項目ほど明確で詳細である。
+明確で詳細であれば、見積もりも正確になる。
+順番が下の項目ほど不正確で詳細ではない。
+次のスプリントで開発チームが従事するプロダクトバックログの項目は、
+スプリントで「完了」できるようにうまく細分化されている。
+スプリントで開発チームが「完了」にできる項目は、
+「準備完了（ready）」や「着手可能（actionable）」と呼ばれ、
+スプリント計画ミーティングで選択できる。
+
+//As a product is used and gains value, 
+//	and the marketplace provides feedback, the Product Backlog becomes a larger and more exhaustive list. 
+//Requirements never stop changing, and a Product Backlog is a living artifact. Changes in business requirements, market conditions, or technology may cause changes in the Product Backlog. 
+
+プロダクトが使用されて価値が増加し、
+市場からフィードバックを得られると、
+プロダクトバックログは巨大で包括的な一覧になっていく。
+要求の変更は止まらない。
+プロダクトバックログは生きた成果物である。
+ビジネス要求・市場の状態・技術の変化が、
+プロダクトバックログの変化につながる。
+
+//Multiple Scrum Teams often work together 
+//	on the same product. 
+//One Product Backlog is used to describe the upcoming work on the product. 
+//A Product Backlog attribute that groups items is then employed.
+
+同じプロダクトで複数のスクラムチームが作業をすることがよくある。
+そうした場合、
+プロダクトの作業は1つのプロダクトバックログに記述される。
+また、項目をグループにまとめる属性が追加される。
+
+//Product backlog grooming is 
+//	the act of adding detail, estimates, and priority to items 
+//	in the Product Backlog. 
+//This is an ongoing process 
+//	in which the Product Owner and the Development Team collaborate 
+//	on the details of Product Backlog items. 
+//During Product Backlog grooming, 
+//	items are reviewed and revised. However, 
+//	they can be updated at any time by the Product Owner or 
+//	at the Product Owner's discretion. 
+
+プロダクトバックログの項目に詳細の追加・見積もり・優先付けを行うことを、
+プロダクトバックログの手入れと呼ぶ。
+これは、
+プロダクトオーナーと開発チームが協力して行う継続的なプロセスである。
+プロダクトバックログの手入れによって、
+項目のレビューと改訂が行われる。
+ただし、
+プロダクトオーナーによって、
+項目が更新される可能性もある。
+
+//Grooming is a part-time activity during a Sprint between the Product Owner and the Development Team. 
+// Often the Development Team has the domain knowledge to perform grooming itself. How and when grooming is done is decided by the Scrum Team. Grooming usually consumes no more than 10% of the capacity of the Development Team.
+
+プロダクトバックログの手入れは、
+プロダクトオーナーと開発チームがスプリントで部分的に行う活動である。
+開発チームは、手入れをするためのドメイン知識を持っている。
+いつどのように手入れをするかは、スクラムチームが決定する。
+手入れには、開発チームの作業の10%程度を消費する。
+
+//The Development Team 
+//	is responsible for all estimates. 
+//The Product Owner may influence the Team 
+//	by helping understand and select trade-offs, 
+//	but the people who will perform the work make the final estimate. 
+
+開発チームは見積もりに対して責任を持つ。
+トレードオフの理解や選択を手伝うなど、
+プロダクトオーナーがチームに影響を及ぼすこともあるが、
+最終的な見積もりは実際に作業をする人が行う。
+
+//Monitoring Progress Toward a Goal
+!!! ゴールへの進捗を監視する
+
+//At any point in time, 
+//	the total work remaining to reach a goal can be summed. 
+//The Product Owner tracks this total work remaining at least for every Sprint Review. 
+//The Product Owner compares this amount with work remaining 
+//	at previous Sprint Reviews 
+//	to assess progress toward completing projected work 
+//	by the desired time for the goal. 
+//This information is made transparent to all stakeholders.
+
+いずれかの時点で、
+目標に対する残作業を合計する。
+プロダクトオーナーは、
+少なくともスプリントレビューにおいて、
+この合計残作業を追跡する。
+プロダクトオーナーは、
+前回のスプリントレビューの合計残作業と比較して、
+希望する時間までにゴールに到達するかどうかを評価する。
+この情報はすべての関係者に明らかにされる。
+
+//Scrum does not consider the time spent working on Product Backlog Items. 
+// The work remaining and date are the only variables of interest.
+
+スクラムでは、
+プロダクトバックログの項目に費やした作業時間を考慮しない。
+残作業や日付といった数値は、参考値に過ぎない。
+
+//Various trend burndown, burnup and other projective practices 
+//	have been used to forecast progress. 
+//These have proven useful. 
+//However, these do not replace the importance of empiricism. 
+//In complex environments, 
+//	what will happen is unknown. 
+//Only what has happened 
+//	may be used for forward-looking decision-making.
+
+進捗の見通しを立てるために、
+バーンダウンやバーンナップなどのさまざまなプラクティスが使用されてきた。
+これらは有用であるが、経験主義の重要性を置き換えるものではない。
+複雑な環境下では、何が起きるかわからない。
+すでに起きたものだけが、
+これから先の意思決定に使用できる。
+
+//Sprint Backlog 
+!! スプリントバックログ
+
+//The Sprint Backlog is the set of 
+//	Product Backlog items selected for the Sprint 
+//	plus a plan for delivering the product Increment and 
+//	realizing the Sprint Goal. 
+//The Sprint Backlog is a forecast 
+//	by the Development Team about 
+//	what functionality will be in the next Increment 
+//		and the work needed to deliver that functionality.
+
+スプリントバックログは、
+プロダクトバックログから選択した項目と、
+インクリメントを届けてスプリントゴールを達成する計画を合わせたものである。
+スプリントバックログは、
+開発チームが作成するインクリメントに含まれる機能と、
+その機能を届けるために必要な作業を表した予測である。
+
+//The Sprint Backlog defines the work the Development Team 
+//	will perform to turn Product Backlog items into a "Done" Increment. The Sprint Backlog makes visible all of the work 
+//	that the Development Team identifies 
+//	as necessary to meet the Sprint Goal.
+
+スプリントバックログは、
+開発チームがプロダクトバックログの項目を「完了」インクリメントに変える作業を定義している。
+スプリントバックログは、
+開発チームがスプリントゴールを達成するのに必要な
+作業をすべて見える化している。
+
+//The Sprint Backlog is a plan 
+//	with enough detail 
+//	that changes in progress can be understood in the Daily Scrum. 
+//The Development Team modifies Sprint Backlog 
+//	throughout the Sprint, 
+//	and the Sprint Backlog emerges during the Sprint. 
+//This emergence occurs 
+//	as the Development Team works through the plan 
+//	and learns more about the work needed to achieve the Sprint Goal.
+
+スプリントバックログは、
+これからデイリースクラムで明らかになる十分に詳細な計画である。
+スプリントでは、
+開発チームがスプリントバックログを修正し、
+スプリントバックログが明確化されていく。
+これは、
+開発チームが計画を実行するなかで、
+スプリントゴールの達成に必要な作業を学習するからである。
+
+//As new work is required, 
+//	the Development Team adds it to the Sprint Backlog. 
+//As work is performed or completed, 
+//	the estimated remaining work is updated. 
+//When elements of the plan are deemed unnecessary, they are removed. 
+//Only the Development Team 
+//	can change its Sprint Backlog during a Sprint. 
+//The Sprint Backlog 
+//	is a highly visible, 
+//	real time picture of the work 
+//		that the Development Team plans to accomplish during the Sprint, 
+//		and it belongs solely to the Development Team.
+
+新しい作業が必要になれば、開発チームがスプリントバックログに追加する。
+作業が完了すれば、残作業の見積もりを更新する。
+計画が不要になれば、削除する。
+スプリントでスプリントバックログを削除できるのは、
+開発チームだけである。
+スプリントバックログには、
+開発チームがスプリントで行う作業がリアルタイムに反映されている。
+スプリントバックログは開発チームのものである。
+
+//Monitoring Sprint Progress
+!! スプリントの進捗を監視する
+
+//At any point in time in a Sprint, the total work remaining in the Sprint Backlog items can be summed. The Development Team tracks this total work remaining at least for every Daily Scrum. 
+//The Development Team tracks these sums daily and 
+//	projects the likelihood of achieving the Sprint Goal. 
+//By tracking the remaining work throughout the Sprint, the Development Team can manage its progress. 
+
+スプリントのいずれかの時点で、
+スプリントバックログの項目の残作業を合計する。
+開発チームは、
+少なくともデイリースクラムにおいて、
+この合計残作業を追跡する。
+日次で追跡することで、
+スプリントゴールの達成に見通しを立てる。
+スプリントの残作業の追跡をすることで、
+開発チームは進捗を管理できる。
+
+//Scrum does not consider the time spent working on Sprint Backlog Items. The work remaining and date are the only variables of interest.
+
+スクラムでは、
+スプリントバックログに費やした作業時間を考慮しない。
+残作業や日付といった数値は、参考値に過ぎない。
+
+// Increment
+!! インクリメント
+
+//The Increment is the sum of all the Product Backlog items 
+//	completed during a Sprint and all previous Sprints. 
+//At the end of a Sprint, 
+//	the new Increment must be ""Done"", 
+//	which means it must be in useable condition and 
+//		meet the Scrum Team's Definition of "Done". 
+//It must be in useable condition 
+//	regardless of whether the Product Owner decides to actually release it.
+
+インクリメントは、
+これまでのスプリントで完了したプロダクトバックログの項目をまとめたものである。
+スプリントの終わりには、
+新しいインクリメントが「完了」しなければならない。
+これは、インクリメントが動く状態であり、
+スクラムチームの「完了」の定義に合っていることを意味する。
+プロダクトオーナーがリリースを決定する／しないにかかわらず、
+インクリメントは常に動く状態になければならない。
+
+//Definition of "Done"
+! 「完了」の定義
+
+//When the Product Backlog item or an Increment is described as "Done", everyone must understand what "Done" means. 
+//Although this varies significantly per Scrum Team, 
+//	members must have a shared understanding of 
+//		what it means for work to be complete, 
+//		to ensure transparency. 
+//This is the "Definition of "Done"" for the Scrum Team and is used to assess when work is complete on the product Increment. 
+
+プロダクトバックログの項目やインクリメントが「完了」したならば、
+全員が「完了」の意味を理解していなければならない。
+スクラムチームによってその意味は大きく異なるが、
+透明性を確保するためにも、
+作業の完了について共通の理解がなければならない。
+これは、
+スクラムチームの『「完了」の定義』と呼ばれ、
+プロダクトインクリメントの作業完了の評価に使われる。
+
+//The same definition guides the Development Team 
+//	in knowing how many Product Backlog items 
+//	it can select during a Sprint Planning Meeting. 
+//The purpose of each Sprint 
+//	is to deliver Increments of potentially shippable functionality 
+//	that adhere to the Scrum Team's current Definition of "Done".
+
+この定義は、スプリント計画ミーティングでプロダクトバックログの項目を開発チームがいくつ選択するかの指針にもなる。
+スプリントの目的は、
+スクラムチームの「完了」の定義に沿った出荷判断可能な機能を届けることである。
+
+//Development Teams deliver an Increment of product functionality every Sprint. This Increment is useable, 
+//	so a Product Owner may choose to immediately release it. 
+//Each Increment is additive to all prior Increments and thoroughly tested, ensuring that all Increments work together.
+
+開発チームは、
+スプリントごとにプロダクトのインクリメントを届ける。
+インクリメントは実際に動くものなので、
+プロダクトオーナーはすぐにリリースできる。
+インクリメントは、
+それまでのインクリメントに追加したものであり、
+すべてが正常に動くように十分にテストされたものである。
+
+//As Scrum Teams mature, 
+//	it is expected that their Definition of "Done" will expand 
+//	to include more stringent criteria for higher quality.
+
+成熟したスクラムチームでは、
+「完了」の定義により厳しい品質条件を追加することもある。
+
+//Conclusion
+! 結論
+
+//Scrum is free and offered in this guide. 
+//Scrum's roles, artifacts, events, and rules are immutable and 
+//	although implementing only parts of Scrum is possible, 
+//	the result is not Scrum. 
+//Scrum exists only in its entirety and functions well as a container 
+//	for other techniques, methodologies, and practices.
+
+スクラムは、本ガイドで無料で提供されている。
+スクラムの役割・成果物・イベント・ルールは不変である。
+スクラムの一部だけを導入することも可能だが、それはスクラムとは言えない。
+すべてをまとめたものがスクラムであり、
+その他の技法・方法論・プラクティスのコンテナとして機能する。
+
+//Acknowledgements
+! 謝辞
+
+//People 
+!! 人々
+
+//Of the thousands of people 
+//	who have contributed to Scrum, we should single out those who were instrumental in its first ten years. 
+//First there was Jeff Sutherland, working with Jeff McKenna, 
+//	and Ken Schwaber, working with Mike Smith and Chris Martin. 
+//Many others contributed in the ensuing years and without their help 
+//	Scrum would not be refined as it is today. 
+//David Starr provided key insights and editorial skills in formulating this version of the Scrum Guide.
+
+スクラムに貢献してくれた非常に多くの人たちのなかでも、
+最初の10年間に貢献してくれた人をまず挙げよう。
+まず、Jeff SutherlandとJeff McKenna。
+それから、Ken SchwaberとMike SmithとChris Martin。
+翌年からは、他にも多くの人たちが貢献してくれた。
+彼らの助けがなければ、スクラムは今日のように洗練されていなかっただろう。
+David Starrは、
+見事な見識と編集能力を
+このスクラムガイドを提供してくれた。
+
+//History
+!! 歴史
+
+//Ken Schwaber and Jeff Sutherland first co-presented Scrum at the OOPSLA conference in 1995. This presentation essentially documented the learning 
+//	that Ken and Jeff had over the previous few years applying Scrum.
+
+Ken SchwaberとJeff Sutherlandが、
+1995年のOOPSLAカンファレンスでスクラムを共同発表した。
+この発表は、
+KenとJeffがスクラムを数年間適用した経験から学んだことを文書化したものである。
+
+//The history of Scrum is already considered long. 
+//To honor the first places 
+//	where it was tried and refined, 
+//	we recognize Individual, Inc., Fidelity Investments, and IDX (now GE Medical).
+
+スクラムの歴史は長い。
+最初の試行錯誤の場であるIndividual, Inc.、Fidelity Investments、IDX（現 GE Medical）に感謝したい。
+
+//Translation
+!! 翻訳
+
+//This guide has been translated from the original English version, provided by Ken Schwaber and Jeff Sutherland. Contributors to the translation include [First name][Last name].
+
+本ガイドは、Ken SchwaberとJeff Sutherlandによる英語版の翻訳である。
+日本語訳は、角征典（a.k.a kdmsnr） <kdmsnr@gmail.com> が担当した。
+
+//Revisions
+! 更新履歴
+
+//This June 11, 2011 Scrum Guide is different from its predecessor, the February 2010 Scrum Guide. 
+//In particular, 
+//	we have attempted to remove techniques or best practices from the core of Scrum. 
+//These will vary based on circumstance. 
+//We will be starting a "Best Practices" compendium 
+//	to offer some of our experiences later.
+
+この2011年7月11日版は、2010年2月版とは異なる。
+特に、技法やベストプラクティスをスクラムから外すことにした。
+これらは状況によって変化するからだ。
+今後は、我々の経験の「ベストプラクティス」を提供したいと考えている。
+
+// The Scrum Guide document the Scrum 
+// 	that Jeff Sutherland and Ken Schwaber developed and 
+// 	have sustained for twenty + years. 
+// Other sources provide you with patterns, processes, 
+// 	and insights about how the practices, facilitations, and tools 
+// 	that complement the Scrum framework. 
+// These optimize productivity, value, creativity, and pride.
+
+スクラムガイドは、
+Jeff SutherlandとKen Schwaberが開発した
+12年以上続くスクラムについて文書化したものである。
+スクラムフレームワークを補完する
+プラクティス・ファシリテート・ツールに関する
+パターン・プロセス・見識などについては、その他の情報源が提供してくれる。
+これらは、生産性・価値・創造性・プライドを最適化するものである。
+
+// Release notes covering the following differences 
+// 	between this and the February 2010 version 
+// 	will be published elsewhere, including discussions on:
+
+本稿と2010年2月版の違いについては、
+以下のようなリリースノートをいずれどこかで公開する。
+
+// 1.	Release Planning
+// 2.	Release Burndown
+// 3.	Sprint Backlog
+// 4.	Product and Sprint Backlog Burndown
+// 5.	Commit is now forecast
+// 6.	Team (to Development Team)
+// 7.	Pigs and Chickens … the lore of Scrum
+// 8.	Ordered instead of prioritized
+
+# リリース計画
+# リリースバーンダウン
+# スプリントバックログ
+# プロダクトバックログバーンダウンとスプリントバックログバーンダウン
+# コミットは予測である
+# チーム（から開発チームへ）
+# 豚と鶏……スクラムのお話
+# 優先度ではなく並び替え
