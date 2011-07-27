@@ -41,7 +41,8 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 
 * 軽量
 * 理解が容易
-* 習得が困難
+* 習得が非常に困難
+// ★「習得は非常に困難」……「が」だと前の2つとandの関係（利点）のような感じがします。「は」のほうがbutっぽくていいかなーと。（akaesu0）
 
 // Scrum is a process framework 
 // 	that has been used to manage complex product development 
@@ -66,7 +67,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 // The Scrum framework consists of Scrum Teams and their associated roles, events, artifacts, and rules. Each component within the framework serves a specific purpose and is essential to Scrum's success and usage. 
 
 スクラムフレームワークは、
-スクラムチーム・役割・イベント・成果物・ルールで構成される。
+スクラムチームとその役割・イベント・成果物・ルールで構成される。
 それぞれに目的があり、
 スクラムの利用や成功に欠かせないものである。
 
@@ -96,7 +97,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 
 スクラムは、経験的プロセス制御の理論（経験主義）を基本にしている。
 経験主義とは、
-事実や既知のものから経験や判断をすることによって、
+経験をしたり事実や既知に基づく判断をしたりすることによって、
 知識が獲得できるというものである。
 スクラムでは、
 反復的で漸進的な手法を用いて、
@@ -105,8 +106,8 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 
 // Three pillars uphold every implementation of empirical process control: transparency, inspection, and adaptation.
 
-経験的プロセス制御の実現は、3本の脚に支えられている。
-透明性・検査・適応である。
+経験的プロセス制御の実現は、
+透明性・検査・適応の3本柱に支えられている。
 
 // Transparency
 !! 透明性
@@ -171,8 +172,8 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 // Scrum prescribes four formal opportunities for inspection and adaptation, 
 //	as described in the Scrum Events section of this document.
 
-スクラムでは、次のような
-検査と適応を行う機会を公式に設けている。
+スクラムでは、
+検査と適応を行う次の4つの機会を公式に設けている。
 詳しくは、「スクラムイベント」の節で説明する。
 
 // "	Sprint Planning Meeting
@@ -193,7 +194,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 スクラムは、複雑なプロダクト開発を支援するためのフレームワークである。
 // ★以降、前に出現。同じもの。
 スクラムは、
-スクラムチーム・役割・イベント・成果物・ルールで構成される。
+スクラムチームとその役割・役割・イベント・成果物・ルールで構成される。
 それぞれに目的があり、
 スクラムの利用や成功に欠かせないものである。
 
@@ -1439,6 +1440,7 @@ KenとJeffがスクラムを数年間適用した経験から学んだことを�
 
 本ガイドは、Ken SchwaberとJeff Sutherlandによる英語版の翻訳である。
 日本語訳は、角征典（a.k.a. kdmsnr） <kdmsnr@gmail.com> が担当した。
+翻訳のレビューには、@takaesu0が参加してくれた。
 
 //Revisions
 ! 更新履歴
@@ -1495,3 +1497,8 @@ Jeff SutherlandとKen Schwaberが開発した
 # チーム（から開発チームへ）
 # 豚と鶏……スクラムのお話
 # 優先度ではなく並び替え
+
+
+// ! 翻訳更新履歴
+// * 2011-07-28    Reviewed by @takaesu0
+// * 2011-07-27    Init
