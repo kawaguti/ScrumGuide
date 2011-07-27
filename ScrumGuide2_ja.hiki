@@ -361,14 +361,14 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 // The Product Owner and Scrum Master roles are not included in this count unless they are also executing the work of the Sprint Backlog.
 
 開発チームに最適な人数は、
-小回りが効く程度に少なく、
+小回りが利く程度に少なく、
 重要な作業が成し遂げられる程度に多い人数である。
 開発チームのメンバが3人未満の場合は、
 相互作用が少なく、生産性の向上につながらない。
 また、チームの規模の小さいと、
 スキル不足という理由から、
 スプリントで出荷判断可能なインクリメントを届けられない可能性もある。
-メンバーが9人を超える場合は、調整の機会が多くなってしまう。
+メンバが9人を超える場合は、調整の機会が多くなってしまう。
 また、チームの規模が大きいと、
 経験的プロセスの管理が複雑になってしまう。
 スプリントバックログの作業に携わらないのであれば、
@@ -387,7 +387,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 スクラムの理解と成立に責任を持つ。
 そのためにスクラムマスターは、
 スクラムチームにスクラムの理論・プラクティス・ルールを守ってもらうようにする。
-スクラムマスターは、スクラムチームのサーバントリーダー（訳注：メンバーが成果をあげるために支援や奉仕をするリーダーのこと）である。
+スクラムマスターは、スクラムチームのサーバントリーダー（訳注：メンバが成果をあげるために支援や奉仕をするリーダーのこと）である。
 
 //The Scrum Master helps those outside the Scrum Team 
 // understand which of their interactions with the Scrum Team are helpful and which aren't.
@@ -1035,7 +1035,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 
 プロダクトバックログは、
 プロダクトに必要なものがすべて順序付きで一覧になったものであり、
-プロダクトに対する変更要求の唯一の情報源である。
+プロダクトの変更要求の唯一の情報源である。
 プロダクトオーナーは、
 プロダクトバックログの内容・可用性・順序に責任を持つ。
 
@@ -1383,7 +1383,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 //Scrum exists only in its entirety and functions well as a container 
 //	for other techniques, methodologies, and practices.
 
-スクラムは、本ガイドで無料で提供されている。
+スクラムは、本ガイドが無料で提供されている。
 スクラムの役割・成果物・イベント・ルールは不変である。
 スクラムの一部だけを導入することも可能だが、それはスクラムとは言えない。
 すべてをまとめたものがスクラムであり、
@@ -1408,7 +1408,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 まず、Jeff SutherlandとJeff McKenna。
 それから、Ken SchwaberとMike SmithとChris Martin。
 翌年からは、他にも多くの人たちが貢献してくれた。
-彼らの助けがなければ、スクラムは今日のように洗練されていなかっただろう。
+彼らの助けがなければ、スクラムは今日のように洗練されてはいなかっただろう。
 David Starrは、
 見事な見識と編集能力を
 このスクラムガイドを提供してくれた。
@@ -1438,7 +1438,7 @@ KenとJeffがスクラムを数年間適用した経験から学んだことを�
 //This guide has been translated from the original English version, provided by Ken Schwaber and Jeff Sutherland. Contributors to the translation include [First name][Last name].
 
 本ガイドは、Ken SchwaberとJeff Sutherlandによる英語版の翻訳である。
-日本語訳は、角征典（a.k.a kdmsnr） <kdmsnr@gmail.com> が担当した。
+日本語訳は、角征典（a.k.a. kdmsnr） <kdmsnr@gmail.com> が担当した。
 
 //Revisions
 ! 更新履歴
@@ -1467,7 +1467,7 @@ KenとJeffがスクラムを数年間適用した経験から学んだことを�
 Jeff SutherlandとKen Schwaberが開発した
 12年以上続くスクラムについて文書化したものである。
 スクラムフレームワークを補完する
-プラクティス・ファシリテート・ツールに関する
+プラクティス・ファシリテーション・ツールに関する
 パターン・プロセス・見識などについては、その他の情報源が提供してくれる。
 これらは、生産性・価値・創造性・プライドを最適化するものである。
 
