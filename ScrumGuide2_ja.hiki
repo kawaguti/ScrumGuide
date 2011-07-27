@@ -41,7 +41,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 
 * 軽量
 * 理解が容易
-* 習得が困難
+* マスターするのはきわめて難しい
 
 // Scrum is a process framework 
 // 	that has been used to manage complex product development 
@@ -54,11 +54,11 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 // 	and development practices 
 // 	so that you can improve.
 
-スクラムは、1990年代から複雑なプロダクト開発の管理に使用されてきたプロセスフレームワークである。
+スクラムは、1990年代初頭から複雑なプロダクト開発の管理に使用されてきたプロセスフレームワークである。
 プロダクトを構築するプロセスや技法ではなく、
 さまざまなプロセスや技法を取り入れることのできるフレームワークだ。
-プロダクト管理や開発プラクティスを改善できるように、
-それらの相対的効果を明確化するものである。
+プロダクト管理や開発プラクティスの相対的な相対的な有効性を明らかにするため、
+やり方を改善することができる。
 
 // Scrum Framework
 !! スクラムフレームワーク
@@ -95,9 +95,9 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 // Scrum employs an iterative, incremental approach to optimize predictability and control risk. 
 
 スクラムは、経験的プロセス制御の理論（経験主義）を基本にしている。
-経験主義とは、
-事実や既知のものから経験や判断をすることによって、
-知識が獲得できるというものである。
+経験主義では、
+経験から得られる知識の存在を仮定し、
+事実や既知のものに基づく意思決定を行う。
 スクラムでは、
 反復的で漸進的な手法を用いて、
 予測可能性を最適化し、リスクを管理する。
@@ -264,7 +264,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 //"	Ensuring that the Product Backlog is visible, transparent, and clear to all, and shows what the Scrum Team will work on next; and,
 //"	Ensuring the Development Team understands items in the Product Backlog to the level needed. 
 
-* プロダクトバックログの項目を明確に表現する。
+* プロダクトバックログ項目を明確に表現する。
 * ゴールとミッションを達成できるようにプロダクトバックログの項目を並び替える。
 * 開発チームが行う作業の価値を保証する。
 * 全員にプロダクトバックログを見える化・透明化・明確化し、スクラムチームに次の作業を伝える。
