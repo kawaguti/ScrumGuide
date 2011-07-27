@@ -188,6 +188,9 @@ dt {
 font-weight: bold;
 }
 
+ul {
+	line-height:175%;
+}
 
 @media print{
     body {
