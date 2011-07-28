@@ -438,7 +438,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 //"	Facilitating Scrum events as requested or needed; and,
 //"	Coaching the Development Team in organizational environments in which Scrum is not yet fully adopted and understood.
 
-* 自己組織化と機能横断について開発チームにコーチする。
+* 自己組織化され機能横断的な開発チームにコーチする。
 * 高価値のプロダクトを作る方法を開発チームに教育・指導する。
 * 開発チームの進捗を妨げるものを排除する。
 * 要望・必要に応じてスクラムイベントをファシリテートする。
@@ -1440,7 +1440,7 @@ KenとJeffがスクラムを数年間適用した経験から学んだことを�
 
 本ガイドは、Ken SchwaberとJeff Sutherlandによる英語版の翻訳である。
 日本語訳は、角征典（a.k.a. kdmsnr） <kdmsnr@gmail.com> が担当した。
-翻訳のレビューには、@irohiroki、@takaesu0が参加してくれた。
+翻訳のレビューには、@irohiroki、@takaesu0、@miholovesqが参加してくれた。
 
 //Revisions
 ! 更新履歴
@@ -1500,6 +1500,7 @@ Jeff SutherlandとKen Schwaberが開発した
 
 
 // ! 翻訳更新履歴
+// * 2011-07-28    Reviewed by @miholovesq
 // * 2011-07-28    Reviewed by @takaesu0
 // * 2011-07-27    Reviewed by @irohiroki
 // * 2011-07-27    Init
