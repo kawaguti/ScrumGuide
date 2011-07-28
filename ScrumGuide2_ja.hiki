@@ -490,7 +490,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 
 
 スプリント以外のすべてのスクラムイベントは、
-何かを検査・適応する機会である（スプリントはその他のイベントのコンテナである）。
+何かを検査・適応する機会である（スプリントはその他のイベントの入れ物である）。
 これらのイベントは、
 重要な透明性や検査を実現できるように設計されている。
 これらのイベントがなければ、
@@ -529,7 +529,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 
 * スプリントゴールに影響する変更を加えない。
 * 開発チームの編成と品質目標に変更を加えない。
-* 開発チームが学習するなかで、スコープが明確化され、プロダクトオーナーとの交渉が必要になる可能性がある。
+* 学習が進むにつれて、スコープが明確化され、プロダクトオーナーと開発チームの交渉が必要になる可能性がある。
 
 //Each Sprint may be considered a project 
 //	with no more than a one-month horizon. Like projects, Sprints are used to accomplish something.
@@ -1500,6 +1500,7 @@ Jeff SutherlandとKen Schwaberが開発した
 
 
 // ! 翻訳更新履歴
+// * 2011-07-29    Reviewed by @takaesu0
 // * 2011-07-28    Reviewed by @miholovesq
 // * 2011-07-28    Reviewed by @takaesu0
 // * 2011-07-27    Reviewed by @irohiroki
