@@ -586,10 +586,9 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 //	it rarely makes sense to do so.
 
 スプリントゴールが古くなったらスプリントを中止する。
-会社の方向性や市場・技術の状況が変化すると、
-スプリントゴールが古くなってしまう。
-通常、条件が変化した場合は、スプリントを中止すべきである。
-ただし、スプリントの期間は短いため、
+会社の方向性や市場・技術の状況が変化すると、スプリントゴールが古くなってしまう。
+通常、状況を考えて意味がなくなったと思えば、スプリントを中止すべきである。
+ただし、スプリントの期間は短いので、
 中止したからといってさほど意味をなすことはない。
 
 //When a Sprint is cancelled, any completed and "Done" Product Backlog Items are reviewed. If part of the work is potentially shippable, the Product Owner typically accepts it. 
