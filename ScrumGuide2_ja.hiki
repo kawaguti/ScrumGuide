@@ -116,8 +116,8 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 // Transparency requires those aspects be defined by a common standard 
 //		so observers share a common understanding of what is being seen.
 
-プロセスで重要なのは、
-成果物の責任者にプロセスが見える化されていることである。
+経験的プロセスで特に重要なのは、
+結果責任を持つ者に対しての見える化である。
 透明性は、この点がきちんと標準化され、
 関係者が共通理解を持つことを求めるものである。
 
@@ -162,11 +162,11 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 // 	and that the resulting product will be unacceptable, 
 // 	the process or the material being processed must be adjusted. An adjustment must be made as soon as possible to minimize further deviation.
 
-プロセスに不備があり、
+プロセスに問題が発見され、
 成果物であるプロダクトを受け入れられないと検査人が判断した場合、
 プロセスやその構成要素を調整しなければならない。
 調整はできるだけ早く行い、
-これ以上の逸脱を防がなければならない。
+それ以上の逸脱を防がなければならない。
 
 // Scrum prescribes four formal opportunities for inspection and adaptation, 
 //	as described in the Scrum Events section of this document.
