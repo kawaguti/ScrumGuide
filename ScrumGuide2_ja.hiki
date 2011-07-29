@@ -42,6 +42,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 * 軽量
 * 理解が容易
 * マスターするのはきわめて難しい
+// ★「習得は非常に困難」……「が」だと前の2つとandの関係（利点）のような感じがします。「は」のほうがbutっぽくていいかなーと。（akaesu0）
 
 // Scrum is a process framework 
 // 	that has been used to manage complex product development 
@@ -57,7 +58,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 スクラムは、1990年代初頭から複雑なプロダクト開発の管理に使用されてきたプロセスフレームワークである。
 プロダクトを構築するプロセスや技法ではなく、
 さまざまなプロセスや技法を取り入れることのできるフレームワークだ。
-プロダクト管理や開発プラクティスの相対的な相対的な有効性を明らかにするため、
+プロダクト管理や開発プラクティスの相対的な相対的な有効性を明らかにし、
 やり方を改善することができる。
 
 // Scrum Framework
@@ -66,7 +67,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 // The Scrum framework consists of Scrum Teams and their associated roles, events, artifacts, and rules. Each component within the framework serves a specific purpose and is essential to Scrum's success and usage. 
 
 スクラムフレームワークは、
-スクラムチーム・役割・イベント・成果物・ルールで構成される。
+スクラムチームとその役割・イベント・成果物・ルールで構成される。
 それぞれに目的があり、
 スクラムの利用や成功に欠かせないものである。
 
@@ -105,8 +106,8 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 
 // Three pillars uphold every implementation of empirical process control: transparency, inspection, and adaptation.
 
-経験的プロセス制御の実現は、3本の脚に支えられている。
-透明性・検査・適応である。
+経験的プロセス制御の実現は、
+透明性・検査・適応の3本柱に支えられている。
 
 // Transparency
 !! 透明性
@@ -171,8 +172,8 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 // Scrum prescribes four formal opportunities for inspection and adaptation, 
 //	as described in the Scrum Events section of this document.
 
-スクラムでは、次のような
-検査と適応を行う機会を公式に設けている。
+スクラムでは、
+検査と適応を行う次の4つの機会を公式に設けている。
 詳しくは、「スクラムイベント」の節で説明する。
 
 // "	Sprint Planning Meeting
@@ -193,7 +194,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 スクラムは、複雑なプロダクト開発を支援するためのフレームワークである。
 // ★以降、前に出現。同じもの。
 スクラムは、
-スクラムチーム・役割・イベント・成果物・ルールで構成される。
+スクラムチームとその役割・役割・イベント・成果物・ルールで構成される。
 それぞれに目的があり、
 スクラムの利用や成功に欠かせないものである。
 
@@ -416,7 +417,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 //"	Facilitating Scrum events as requested or needed.
 
 * 効果的なプロダクトバックログの管理方法を探す。
-* ビジョン・ゴール・バックログ項目を明確に開発チームに伝える。
+* ビジョン・ゴール・プロダクトバックログ項目を明確に開発チームに伝える。
 * プロダクトバックログの項目を明確・簡潔に作る方法を開発チームに教える。
 * 経験主義の環境における長期のプロダクト計画について理解する。
 * アジャイルを理解・実践する。
@@ -436,7 +437,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 //"	Facilitating Scrum events as requested or needed; and,
 //"	Coaching the Development Team in organizational environments in which Scrum is not yet fully adopted and understood.
 
-* 自己組織化と機能横断について開発チームにコーチする。
+* 自己組織化され機能横断的な開発チームにコーチする。
 * 高価値のプロダクトを作る方法を開発チームに教育・指導する。
 * 開発チームの進捗を妨げるものを排除する。
 * 要望・必要に応じてスクラムイベントをファシリテートする。
@@ -488,7 +489,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 
 
 スプリント以外のすべてのスクラムイベントは、
-何かを検査・適応する機会である。
+何かを検査・適応する機会である（スプリントはその他のイベントの入れ物である）。
 これらのイベントは、
 重要な透明性や検査を実現できるように設計されている。
 これらのイベントがなければ、
@@ -527,7 +528,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 
 * スプリントゴールに影響する変更を加えない。
 * 開発チームの編成と品質目標に変更を加えない。
-* 開発チームが学習するなかで、スコープが明確化され、プロダクトオーナーとの交渉が必要になる可能性がある。
+* 学習が進むにつれて、スコープが明確化され、プロダクトオーナーと開発チームの交渉が必要になる可能性がある。
 
 //Each Sprint may be considered a project 
 //	with no more than a one-month horizon. Like projects, Sprints are used to accomplish something.
@@ -584,10 +585,9 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 //	it rarely makes sense to do so.
 
 スプリントゴールが古くなったらスプリントを中止する。
-会社の方向性や市場・技術の状況が変化すると、
-スプリントゴールが古くなってしまう。
-通常、条件が変化した場合は、スプリントを中止すべきである。
-ただし、スプリントの期間は短いため、
+会社の方向性や市場・技術の状況が変化すると、スプリントゴールが古くなってしまう。
+通常、状況を考えて意味がなくなったと思えば、スプリントを中止すべきである。
+ただし、スプリントの期間は短いので、
 中止したからといってさほど意味をなすことはない。
 
 //When a Sprint is cancelled, any completed and "Done" Product Backlog Items are reviewed. If part of the work is potentially shippable, the Product Owner typically accepts it. 
@@ -782,7 +782,7 @@ Ken SchwaberとJeff Sutherlandによって開発された。
 //	then they collaborate with the Product Owner 
 //		to negotiate the scope of Sprint Backlog within the Sprint. 
 
-開発チームが作業をするときは、このスプリントゴールを心にとどめておく。
+開発チームが作業をするときは、このスプリントゴールを心に留めておく。
 スプリントゴールを達成するには、
 機能と技術を満たさなければならない。
 開発チームの予想が外れた場合は、
@@ -1438,6 +1438,7 @@ KenとJeffがスクラムを数年間適用した経験から学んだことを�
 
 本ガイドは、Ken SchwaberとJeff Sutherlandによる英語版の翻訳である。
 日本語訳は、角征典（a.k.a. kdmsnr） <kdmsnr@gmail.com> が担当した。
+翻訳のレビューには、@irohiroki、@takaesu0、@miholovesqが参加してくれた。
 
 //Revisions
 ! 更新履歴
@@ -1464,7 +1465,7 @@ KenとJeffがスクラムを数年間適用した経験から学んだことを�
 
 スクラムガイドは、
 Jeff SutherlandとKen Schwaberが開発した
-12年以上続くスクラムについて文書化したものである。
+20年以上続くスクラムについて文書化したものである。
 スクラムフレームワークを補完する
 プラクティス・ファシリテーション・ツールに関する
 パターン・プロセス・見識などについては、その他の情報源が提供してくれる。
@@ -1494,3 +1495,11 @@ Jeff SutherlandとKen Schwaberが開発した
 # チーム（から開発チームへ）
 # 豚と鶏……スクラムのお話
 # 優先度ではなく並び替え
+
+
+// ! 翻訳更新履歴
+// * 2011-07-29    Reviewed by @takaesu0
+// * 2011-07-28    Reviewed by @miholovesq
+// * 2011-07-28    Reviewed by @takaesu0
+// * 2011-07-27    Reviewed by @irohiroki
+// * 2011-07-27    Init
